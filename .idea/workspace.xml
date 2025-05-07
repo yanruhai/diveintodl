@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/diveintodl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/1-datamaipulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/2-datapreprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/3-linearalgebra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/4-calculus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/exercise2.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/k-mean-cluster.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/test3.py" afterDir="false" />
+    <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
+      <change afterPath="$PROJECT_DIR$/chap2/5-automaticdifferentiation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap2/exercise2.5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap2/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap2/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap2/test6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/diveintodl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diveintodl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap2/4-calculus.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap2/4-calculus.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yanruhai&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yanruhai/diveintodl&quot;,
+    &quot;accountId&quot;: &quot;2f61ff7e-c308-47b4-91e1-a46c049b3c81&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -52,20 +58,26 @@
     "Python.2-datapreprocessing.executor": "Run",
     "Python.3-linearalgebra.executor": "Run",
     "Python.4-calculus.executor": "Run",
+    "Python.5-automaticdifferentiation.executor": "Run",
     "Python.exercise2.1.executor": "Run",
+    "Python.exercise2.5.executor": "Run",
     "Python.k-mean-cluster.executor": "Debug",
     "Python.test (1).executor": "Run",
     "Python.test.executor": "Run",
     "Python.test2.executor": "Run",
     "Python.test3.executor": "Run",
+    "Python.test4.executor": "Run",
+    "Python.test5.executor": "Run",
+    "Python.test6.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.4-calculus">
-    <configuration name="2-datapreprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.exercise2.5">
+    <configuration name="5-automaticdifferentiation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +90,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/2-datapreprocessing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/5-automaticdifferentiation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3-linearalgebra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="exercise2.5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/3-linearalgebra.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/exercise2.5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4-calculus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/4-calculus.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/test4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercise2.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,7 +156,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/exercise2.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/test5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +178,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/test3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/test6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.4-calculus" />
-        <item itemvalue="Python.test3" />
-        <item itemvalue="Python.3-linearalgebra" />
-        <item itemvalue="Python.exercise2.1" />
-        <item itemvalue="Python.2-datapreprocessing" />
+        <item itemvalue="Python.exercise2.5" />
+        <item itemvalue="Python.5-automaticdifferentiation" />
+        <item itemvalue="Python.test6" />
+        <item itemvalue="Python.test5" />
+        <item itemvalue="Python.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +213,27 @@
       <option name="presentableId" value="Default" />
       <updated>1743293144357</updated>
     </task>
+    <task id="LOCAL-00001" summary="gg">
+      <option name="closed" value="true" />
+      <created>1746187925020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746187925020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gg">
+      <option name="closed" value="true" />
+      <created>1746188083781</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746188083781</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gg" />
+    <option name="LAST_COMMIT_MESSAGE" value="gg" />
   </component>
 </project>
