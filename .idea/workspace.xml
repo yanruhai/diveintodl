@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
-      <change afterPath="$PROJECT_DIR$/chap2/5-automaticdifferentiation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/exercise2.5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/test5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap2/test6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/diveintodl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diveintodl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap2/6-probabilityandstatistics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/3-3 answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/learning-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/learning-2-Object-Oriented Design for Implementation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/learning-3-syntheticregressiondata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/learning-4-LinearRegressionfromScratch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/learning-5-ConciseImplementationofLinearRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/learning-7-WeightDecay.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap2/4-calculus.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap2/4-calculus.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,9 @@
     &quot;accountId&quot;: &quot;2f61ff7e-c308-47b4-91e1-a46c049b3c81&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv1/Lib/site-packages/d2l/__init__.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -51,33 +54,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1-datamaipulation (1).executor": "Run",
-    "Python.1-datamaipulation.executor": "Run",
-    "Python.2-datapreprocessing.executor": "Run",
-    "Python.3-linearalgebra.executor": "Run",
-    "Python.4-calculus.executor": "Run",
-    "Python.5-automaticdifferentiation.executor": "Run",
-    "Python.exercise2.1.executor": "Run",
-    "Python.exercise2.5.executor": "Run",
-    "Python.k-mean-cluster.executor": "Debug",
-    "Python.test (1).executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test2.executor": "Run",
-    "Python.test3.executor": "Run",
-    "Python.test4.executor": "Run",
-    "Python.test5.executor": "Run",
-    "Python.test6.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1-datamaipulation (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.1-datamaipulation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2-datapreprocessing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-linearalgebra.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4-calculus.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-automaticdifferentiation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-probabilityandstatistics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise2.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise2.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.k-mean-cluster.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.learning-2-Object-Oriented Design for Implementation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.learning-3-syntheticregressiondata.executor&quot;: &quot;Run&quot;,
+    &quot;Python.learning-4-LinearRegressionfromScratch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.learning-5-ConciseImplementationofLinearRegression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.learning-6-WeightDecay.executor&quot;: &quot;Run&quot;,
+    &quot;Python.learning.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test6.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.exercise2.5">
-    <configuration name="5-automaticdifferentiation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python.learning-5-ConciseImplementationofLinearRegression">
+    <configuration name="learning-2-Object-Oriented Design for Implementation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/5-automaticdifferentiation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap3/learning-2-Object-Oriented Design for Implementation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercise2.5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="learning-3-syntheticregressiondata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/exercise2.5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap3/learning-3-syntheticregressiondata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="learning-4-LinearRegressionfromScratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/test4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap3/learning-4-LinearRegressionfromScratch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="learning-5-ConciseImplementationofLinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/test5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap3/learning-5-ConciseImplementationofLinearRegression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="learning-7-WeightDecay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap2/test6.py" />
+      <option name="SCRIPT_NAME" value="C:\pythonproj\diveintodl\chap3\learning-7-WeightDecay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exercise2.5" />
-        <item itemvalue="Python.5-automaticdifferentiation" />
-        <item itemvalue="Python.test6" />
-        <item itemvalue="Python.test5" />
-        <item itemvalue="Python.test4" />
+        <item itemvalue="Python.learning-5-ConciseImplementationofLinearRegression" />
+        <item itemvalue="Python.learning-7-WeightDecay" />
+        <item itemvalue="Python.learning-4-LinearRegressionfromScratch" />
+        <item itemvalue="Python.learning-3-syntheticregressiondata" />
+        <item itemvalue="Python.learning-2-Object-Oriented Design for Implementation" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746188083781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gg">
+      <option name="closed" value="true" />
+      <created>1746618029709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746618029709</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
