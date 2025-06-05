@@ -1,10 +1,9 @@
+import numpy as np
 import torch
 from matplotlib import pyplot as plt
 from torch import nn
 from d2l import torch as d2l
 
-print('3.7.1. Norms and Weight Decay')
-print('y=0.05+∑(i=1,d)0.01xi+ϵ')
 class Data(d2l.DataModule):
     def __init__(self, num_train, num_val, num_inputs, batch_size):
         self.save_hyperparameters()
@@ -23,40 +22,24 @@ print('3.7.3. Implementation from Scratch')
 def l2_penalty(w):
     return (w ** 2).sum() / 2
 
+def l1_penalty(w):
+    return torch.abs(w).sum()
+
 class WeightDecayScratch(d2l.LinearRegressionScratch):
     def __init__(self, num_inputs, lambd, lr, sigma=0.01):
         super().__init__(num_inputs, lr, sigma)
         self.save_hyperparameters()
 
     def loss(self, y_hat, y):
-        return super().loss(y_hat, y) + self.lambd * l2_penalty(self.w)
+        return super().loss(y_hat, y) + self.lambd * l1_penalty(self.w)
 
+data = Data(num_train=1000, num_val=1000, num_inputs=20, batch_size=30)
+trainer = d2l.Trainer(max_epochs=50)
 
-data = Data(num_train=20, num_val=100, num_inputs=200, batch_size=5)
-trainer = d2l.Trainer(max_epochs=10)
-
-def train_scratch(lambd):
-    model = WeightDecayScratch(num_inputs=200, lambd=lambd, lr=0.01)
-    model.board.yscale='log'
-    trainer.fit(model, data)
-    print('L2 norm of w:', float(l2_penalty(model.w)))
-train_scratch(3)#lambd=0表示没有L2惩罚项，禁用正则化
-
-print('3.7.4. Concise Implementation')
-class WeightDecay(d2l.LinearRegression):#这个类目的是使用库函数，减少代码长度，简化前面那个类。
-    def __init__(self, wd, lr):
-        super().__init__(lr)
-        self.save_hyperparameters()
-        self.wd = wd
-
-    def configure_optimizers(self):
-        return torch.optim.SGD([
-            {'params': self.net.weight, 'weight_decay': self.wd},
-            {'params': self.net.bias}], lr=self.lr)
-
-model = WeightDecay(wd=3, lr=0.01)
+lambd =0.1
+model = WeightDecayScratch(num_inputs=20, lambd=lambd, lr=0.01)
 model.board.yscale='log'#y 轴的刻度是对数形式的（例如  10^{-2}, 10^{-1}, 10^0, 10^1
 trainer.fit(model, data)
 
-print('L2 norm of w:', float(l2_penalty(model.get_w_b()[0])))
+
 plt.show()
