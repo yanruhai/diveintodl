@@ -5,8 +5,13 @@ class Classifier(d2l.Module):  #@save
     """The base class of classification models."""
     def validation_step(self, batch):
         Y_hat = self(*batch[:-1])# * 操作符将 batch[:-1]（一个可迭代对象）解包成单独的参数
-        self.plot('loss', self.loss(Y_hat, batch[-1]), train=False)
+        #self 是当前模型实例，调用 self() 等价于执行模型__call__方法内的 forward() 方法。
+        self.plot('loss', self.loss(Y_hat, batch[-1]), train=False)#-1表示最后一列
         self.plot('acc', self.accuracy(Y_hat, batch[-1]), train=False)
+        ##batch内容说明，内部结构 假设数据集是 3 个样本，每个样本 2 个特征（输入 x 是 2 维），标签 y 是 1 维
+        #x = torch.tensor([[1.0, 2.0], [3.0, 4.0], [5.0, 6.0]])  # 形状 (3, 2) → 2 维
+        #y = torch.tensor([0, 1, 0])  # 形状 (3,) → 1 维
+        #batch = (x, y)
 
 @d2l.add_to_class(d2l.Module)  #@save
 def configure_optimizers(self):

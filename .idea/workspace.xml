@@ -5,18 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
-      <change afterPath="$PROJECT_DIR$/chap3/3.7-1answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap3/3.7-3answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/2-The Image Classification Dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/3-The Base Classification Model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/4-Softmax Regression Implementation from Scratch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/4.1.5-answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap4/4.1 answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap4/4.2 answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap4/4.4.5 answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap4/4.5.1 answer-b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap4/4.5.1 answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap4/4.5.2 answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap4/5-Concise Implementation of Softmax Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap4/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap4/test6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/1-multilayer perceptrons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/2-5.2.2. Concise Implementation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/2-Implementation of Multilayer Perceptrons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/4-Numerical Stability and Initialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/5.2 answer for 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/5.2 answer for 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/5.2 answer for 6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/5.2-1 answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/5.6 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/5.6 answer for 5-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/5.6 answer for 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/6-dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/7-Predicting House Prices on Kaggle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/second_order_differentiate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/test6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/test7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/test8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap5/test9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/1-layers and modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/2-parameter management.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/3-parameter initialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/4-lazy initialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/5-custom layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/5-custom layers2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/6-File io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/6.1 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/6.2 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/6.2 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/7-GPUs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/test3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap3/learning-7-WeightDecay.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap3/learning-7-WeightDecay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap4/3-The Base Classification Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap4/3-The Base Classification Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap4/4-Softmax Regression Implementation from Scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap4/4-Softmax Regression Implementation from Scratch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap4/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap4/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,16 +101,45 @@
   "keyToString": {
     "Python.1-datamaipulation (1).executor": "Run",
     "Python.1-datamaipulation.executor": "Run",
+    "Python.1-layers and modules.executor": "Run",
+    "Python.1-multilayer perceptrons.executor": "Run",
+    "Python.2-Implementation of Multilayer Perceptrons.executor": "Run",
     "Python.2-The Image Classification Dataset.executor": "Run",
     "Python.2-datapreprocessing.executor": "Run",
+    "Python.2-parameter management.executor": "Debug",
     "Python.3-linearalgebra.executor": "Run",
+    "Python.3-parameter initialization.executor": "Run",
     "Python.3.7-1answer.executor": "Run",
     "Python.3.7-3answer.executor": "Run",
-    "Python.4-Softmax Regression Implementation from Scratch.executor": "Run",
+    "Python.4-Numerical Stability and Initialization.executor": "Run",
+    "Python.4-Softmax Regression Implementation from Scratch.executor": "Debug",
     "Python.4-calculus.executor": "Run",
+    "Python.4-lazy initialization.executor": "Run",
+    "Python.4.1 answer.executor": "Run",
     "Python.4.1.5-answer.executor": "Run",
+    "Python.4.2 answer.executor": "Run",
+    "Python.4.4.5 answer.executor": "Run",
+    "Python.4.5.1 answer-b.executor": "Run",
+    "Python.4.5.1 answer.executor": "Run",
+    "Python.4.5.2 answer.executor": "Run",
+    "Python.5-Concise Implementation of Softmax Regression.executor": "Run",
     "Python.5-automaticdifferentiation.executor": "Run",
+    "Python.5-custom layers.executor": "Run",
+    "Python.5-custom layers2.executor": "Debug",
+    "Python.5.2 answer for 4.executor": "Run",
+    "Python.5.2 answer for 5.executor": "Run",
+    "Python.5.2 answer for 6.executor": "Run",
+    "Python.5.2-1 answer.executor": "Run",
+    "Python.5.6 answer for 1.executor": "Run",
+    "Python.5.6 answer for 5-2.executor": "Run",
+    "Python.5.6 answer for 5.executor": "Run",
+    "Python.6-File io.executor": "Run",
+    "Python.6-dropout.executor": "Run",
     "Python.6-probabilityandstatistics.executor": "Run",
+    "Python.6.1 answer for 2.executor": "Debug",
+    "Python.6.2 answer for 1.executor": "Run",
+    "Python.6.2 answer for 2.executor": "Run",
+    "Python.7-Predicting House Prices on Kaggle.executor": "Run",
     "Python.exercise2.1.executor": "Run",
     "Python.exercise2.5.executor": "Run",
     "Python.k-mean-cluster.executor": "Debug",
@@ -80,22 +149,34 @@
     "Python.learning-5-ConciseImplementationofLinearRegression.executor": "Run",
     "Python.learning-6-WeightDecay.executor": "Run",
     "Python.learning.executor": "Run",
+    "Python.second_order_differentiate.executor": "Run",
     "Python.test (1).executor": "Run",
-    "Python.test.executor": "Run",
+    "Python.test.executor": "Debug",
+    "Python.test1.executor": "Run",
+    "Python.test10.executor": "Run",
     "Python.test2.executor": "Run",
     "Python.test3.executor": "Run",
-    "Python.test4.executor": "Run",
+    "Python.test4.executor": "Debug",
     "Python.test5.executor": "Run",
     "Python.test6.executor": "Run",
+    "Python.test7.executor": "Debug",
+    "Python.test8.executor": "Debug",
+    "Python.test9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/pythonproj/diveintodl/chap6",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.4-Softmax Regression Implementation from Scratch">
-    <configuration name="2-The Image Classification Dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\pythonproj\diveintodl\chap6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.6-File io">
+    <configuration name="5-custom layers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,11 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap4/2-The Image Classification Dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap6/5-custom layers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4-Softmax Regression Implementation from Scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5-custom layers2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,11 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap4/4-Softmax Regression Implementation from Scratch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap6/5-custom layers2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4.1.5-answer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6-File io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,11 +229,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap4/4.1.5-answer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap6/6-File io.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="diveintodl" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap6/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,33 +273,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap4/test3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="diveintodl" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap4/test4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap6/test3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.4-Softmax Regression Implementation from Scratch" />
-        <item itemvalue="Python.2-The Image Classification Dataset" />
-        <item itemvalue="Python.4.1.5-answer" />
-        <item itemvalue="Python.test4" />
+        <item itemvalue="Python.6-File io" />
+        <item itemvalue="Python.5-custom layers" />
+        <item itemvalue="Python.5-custom layers2" />
         <item itemvalue="Python.test3" />
+        <item itemvalue="Python.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -263,11 +344,50 @@
       <option name="project" value="LOCAL" />
       <updated>1748653819823</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="gg">
+      <option name="closed" value="true" />
+      <created>1749106876849</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749106876849</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gg" />
     <option name="LAST_COMMIT_MESSAGE" value="gg" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap5/test4.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap5/test7.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap6/6.1 answer for 2.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap6/5-custom layers2.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap6/5-custom layers.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
