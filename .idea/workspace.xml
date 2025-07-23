@@ -5,58 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
-      <change afterPath="$PROJECT_DIR$/chap3/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap3/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/4.1 answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/4.2 answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/4.4.5 answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/4.5.1 answer-b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/4.5.1 answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/4.5.2 answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/5-Concise Implementation of Softmax Regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/test5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap4/test6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/1-multilayer perceptrons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/2-5.2.2. Concise Implementation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/2-Implementation of Multilayer Perceptrons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/4-Numerical Stability and Initialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/5.2 answer for 4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/5.2 answer for 5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/5.2 answer for 6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/5.2-1 answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/5.6 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/5.6 answer for 5-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/5.6 answer for 5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/6-dropout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/7-Predicting House Prices on Kaggle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/second_order_differentiate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/test5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/test6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/test7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/test8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap5/test9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/1-layers and modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/2-parameter management.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/3-parameter initialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/4-lazy initialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/5-custom layers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/5-custom layers2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/6-File io.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/6.1 answer for 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/6.2 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/6.2 answer for 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/7-GPUs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/6.5 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/2-convolutions for images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/3-padding and stride.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/4-multiple input and multiple output channels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/5-pooling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/6-lenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/1-deep convolutional neural network(alexnet).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/2-networks using blocks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap4/3-The Base Classification Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap4/3-The Base Classification Model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap4/4-Softmax Regression Implementation from Scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap4/4-Softmax Regression Implementation from Scratch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap4/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap4/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,13 +62,17 @@
   "keyToString": {
     "Python.1-datamaipulation (1).executor": "Run",
     "Python.1-datamaipulation.executor": "Run",
+    "Python.1-deep convolutional neural network(alexnet).executor": "Run",
     "Python.1-layers and modules.executor": "Run",
     "Python.1-multilayer perceptrons.executor": "Run",
     "Python.2-Implementation of Multilayer Perceptrons.executor": "Run",
     "Python.2-The Image Classification Dataset.executor": "Run",
+    "Python.2-convolutions for images.executor": "Debug",
     "Python.2-datapreprocessing.executor": "Run",
+    "Python.2-networks using blocks.executor": "Run",
     "Python.2-parameter management.executor": "Debug",
     "Python.3-linearalgebra.executor": "Run",
+    "Python.3-padding and stride.executor": "Run",
     "Python.3-parameter initialization.executor": "Run",
     "Python.3.7-1answer.executor": "Run",
     "Python.3.7-3answer.executor": "Run",
@@ -115,6 +80,7 @@
     "Python.4-Softmax Regression Implementation from Scratch.executor": "Debug",
     "Python.4-calculus.executor": "Run",
     "Python.4-lazy initialization.executor": "Run",
+    "Python.4-multiple input and multiple output channels.executor": "Debug",
     "Python.4.1 answer.executor": "Run",
     "Python.4.1.5-answer.executor": "Run",
     "Python.4.2 answer.executor": "Run",
@@ -126,6 +92,7 @@
     "Python.5-automaticdifferentiation.executor": "Run",
     "Python.5-custom layers.executor": "Run",
     "Python.5-custom layers2.executor": "Debug",
+    "Python.5-pooling.executor": "Run",
     "Python.5.2 answer for 4.executor": "Run",
     "Python.5.2 answer for 5.executor": "Run",
     "Python.5.2 answer for 6.executor": "Run",
@@ -135,6 +102,7 @@
     "Python.5.6 answer for 5.executor": "Run",
     "Python.6-File io.executor": "Run",
     "Python.6-dropout.executor": "Run",
+    "Python.6-lenet.executor": "Run",
     "Python.6-probabilityandstatistics.executor": "Run",
     "Python.6.1 answer for 2.executor": "Debug",
     "Python.6.2 answer for 1.executor": "Run",
@@ -156,7 +124,7 @@
     "Python.test10.executor": "Run",
     "Python.test2.executor": "Run",
     "Python.test3.executor": "Run",
-    "Python.test4.executor": "Debug",
+    "Python.test4.executor": "Run",
     "Python.test5.executor": "Run",
     "Python.test6.executor": "Run",
     "Python.test7.executor": "Debug",
@@ -175,8 +143,8 @@
       <recent name="C:\pythonproj\diveintodl\chap6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.6-File io">
-    <configuration name="5-custom layers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.2-networks using blocks">
+    <configuration name="1-deep convolutional neural network(alexnet)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,11 +153,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap6/5-custom layers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/1-deep convolutional neural network(alexnet).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5-custom layers2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2-networks using blocks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,11 +175,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap6/5-custom layers2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/2-networks using blocks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6-File io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5-pooling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,11 +197,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap6/6-File io.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap7/5-pooling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6-lenet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="diveintodl" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap7/6-lenet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,33 +241,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap6/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="diveintodl" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap6/test3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap7/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.6-File io" />
-        <item itemvalue="Python.5-custom layers" />
-        <item itemvalue="Python.5-custom layers2" />
-        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.2-networks using blocks" />
+        <item itemvalue="Python.1-deep convolutional neural network(alexnet)" />
+        <item itemvalue="Python.6-lenet" />
         <item itemvalue="Python.test2" />
+        <item itemvalue="Python.5-pooling" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749106876849</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gg">
+      <option name="closed" value="true" />
+      <created>1752285932418</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752285932418</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -381,11 +357,6 @@
           <url>file://$PROJECT_DIR$/chap6/5-custom layers2.py</url>
           <line>17</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chap6/5-custom layers.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
