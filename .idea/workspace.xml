@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
-      <change afterPath="$PROJECT_DIR$/chap6/6.5 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap6/test5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap7/2-convolutions for images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap7/3-padding and stride.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap7/4-multiple input and multiple output channels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap7/5-pooling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap7/6-lenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap7/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap7/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/1-deep convolutional neural network(alexnet).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/2-networks using blocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8-3 network in network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.4 multibranch network.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +98,7 @@
     "Python.6.2 answer for 1.executor": "Run",
     "Python.6.2 answer for 2.executor": "Run",
     "Python.7-Predicting House Prices on Kaggle.executor": "Run",
+    "Python.8-3 network in network.executor": "Run",
     "Python.exercise2.1.executor": "Run",
     "Python.exercise2.5.executor": "Run",
     "Python.k-mean-cluster.executor": "Debug",
@@ -143,7 +134,7 @@
       <recent name="C:\pythonproj\diveintodl\chap6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2-networks using blocks">
+  <component name="RunManager" selected="Python.8-3 network in network">
     <configuration name="1-deep convolutional neural network(alexnet)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
@@ -188,28 +179,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5-pooling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="diveintodl" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap7/5-pooling.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="6-lenet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
@@ -224,6 +193,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap7/6-lenet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8-3 network in network" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="diveintodl" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8-3 network in network.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8-3 network in network" />
         <item itemvalue="Python.2-networks using blocks" />
         <item itemvalue="Python.1-deep convolutional neural network(alexnet)" />
         <item itemvalue="Python.6-lenet" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.5-pooling" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752285932418</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gg">
+      <option name="closed" value="true" />
+      <created>1753255312367</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753255312367</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
