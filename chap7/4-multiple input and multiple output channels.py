@@ -1,9 +1,18 @@
 import torch
-from d2l import torch as d2l
+
+
+def corr2d(X, K):  #@save
+    """Compute 2D cross-correlation."""
+    h, w = K.shape
+    Y = torch.zeros((X.shape[0] - h + 1, X.shape[1] - w + 1))
+    for i in range(Y.shape[0]):
+        for j in range(Y.shape[1]):
+            Y[i, j] = (X[i:i + h, j:j + w] * K).sum()
+    return Y
 
 def corr2d_multi_in(X, K):
     # Iterate through the 0th dimension (channel) of K first, then add them up
-    return sum(d2l.corr2d(x, k) for x, k in zip(X, K))
+    return sum(corr2d(x, k) for x, k in zip(X, K))
 
 X = torch.tensor([[[0.0, 1.0, 2.0], [3.0, 4.0, 5.0], [6.0, 7.0, 8.0]],
                [[1.0, 2.0, 3.0], [4.0, 5.0, 6.0], [7.0, 8.0, 9.0]]])
@@ -21,7 +30,7 @@ K = torch.stack((K, K + 1, K + 2), 0)
 print("k=",K)
 print("K.shape",K.shape)
 print("X.shape",X.shape)
-print(corr2d_multi_in_out(X, K).shape)
+print(corr2d_multi_in_out(X, K))
 
 
 def corr2d_multi_in_out_1x1(X, K):
@@ -38,4 +47,7 @@ K = torch.normal(0, 1, (2, 3, 1, 1))
 Y1 = corr2d_multi_in_out_1x1(X, K)
 Y2 = corr2d_multi_in_out(X, K)
 assert float(torch.abs(Y1 - Y2).sum()) < 1e-6
+print(f"{torch.abs(Y1-Y2).sum():.10f}")
+print("Y1",Y1)
+print("y2",Y2)
 

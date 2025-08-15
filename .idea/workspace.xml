@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
-      <change afterPath="$PROJECT_DIR$/chap8/8.6-Residual networks and resnext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.7 densenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/diveintodl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diveintodl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/7.2 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/7.2 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/7.2 answer for 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/7.3 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/7.3 answer for 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/7.5 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap7/test6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.2 converting raw text into sequence data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/test4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap8/8.5-batch normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.5-batch normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap7/2-convolutions for images.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap7/2-convolutions for images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap7/3-padding and stride.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap7/3-padding and stride.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap7/4-multiple input and multiple output channels.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap7/4-multiple input and multiple output channels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap7/5-pooling.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap7/5-pooling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap7/6-lenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap7/6-lenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +81,7 @@
     "Python.2-networks using blocks.executor": "Run",
     "Python.2-parameter management.executor": "Debug",
     "Python.3-linearalgebra.executor": "Run",
-    "Python.3-padding and stride.executor": "Run",
+    "Python.3-padding and stride.executor": "Debug",
     "Python.3-parameter initialization.executor": "Run",
     "Python.3.7-1answer.executor": "Run",
     "Python.3.7-3answer.executor": "Run",
@@ -76,7 +89,7 @@
     "Python.4-Softmax Regression Implementation from Scratch.executor": "Debug",
     "Python.4-calculus.executor": "Run",
     "Python.4-lazy initialization.executor": "Run",
-    "Python.4-multiple input and multiple output channels.executor": "Debug",
+    "Python.4-multiple input and multiple output channels.executor": "Run",
     "Python.4.1 answer.executor": "Run",
     "Python.4.1.5-answer.executor": "Run",
     "Python.4.2 answer.executor": "Run",
@@ -104,11 +117,19 @@
     "Python.6.2 answer for 1.executor": "Run",
     "Python.6.2 answer for 2.executor": "Run",
     "Python.7-Predicting House Prices on Kaggle.executor": "Run",
+    "Python.7.2 answer for 1.executor": "Run",
+    "Python.7.2 answer for 2.executor": "Run",
+    "Python.7.2 answer for 3.executor": "Run",
+    "Python.7.3 answer for 1.executor": "Run",
+    "Python.7.3 answer for 3.executor": "Run",
+    "Python.7.5 answer for 1.executor": "Run",
+    "Python.7.5 answer for 3.executor": "Run",
     "Python.8-3 network in network.executor": "Run",
     "Python.8.5-batch normalization.executor": "Run",
     "Python.8.6-Residual networks and resnext.executor": "Run",
     "Python.8.7 densenet.executor": "Debug",
     "Python.9.1 workingwithsequences.executor": "Run",
+    "Python.9.2 converting raw text into sequence data.executor": "Run",
     "Python.exercise2.1.executor": "Run",
     "Python.exercise2.5.executor": "Run",
     "Python.k-mean-cluster.executor": "Debug",
@@ -121,10 +142,10 @@
     "Python.second_order_differentiate.executor": "Run",
     "Python.test (1).executor": "Run",
     "Python.test.executor": "Run",
-    "Python.test1.executor": "Run",
+    "Python.test1.executor": "Debug",
     "Python.test10.executor": "Run",
     "Python.test2.executor": "Run",
-    "Python.test3.executor": "Run",
+    "Python.test3.executor": "Debug",
     "Python.test4.executor": "Run",
     "Python.test5.executor": "Run",
     "Python.test6.executor": "Run",
@@ -144,8 +165,8 @@
       <recent name="C:\pythonproj\diveintodl\chap6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.9.1 workingwithsequences">
-    <configuration name="8.5-batch normalization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.9.2 converting raw text into sequence data">
+    <configuration name="6-lenet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,11 +175,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.5-batch normalization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap7/6-lenet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,51 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8.6-Residual networks and resnext" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="diveintodl" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.6-Residual networks and resnext.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="8.7 densenet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="diveintodl" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.7 densenet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="9.1 workingwithsequences" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="9.2 converting raw text into sequence data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,7 +201,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/9.2 converting raw text into sequence data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,11 +219,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="diveintodl" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="diveintodl" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/test4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.9.1 workingwithsequences" />
-        <item itemvalue="Python.8.7 densenet" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.8.6-Residual networks and resnext" />
-        <item itemvalue="Python.8.5-batch normalization" />
+        <item itemvalue="Python.9.2 converting raw text into sequence data" />
+        <item itemvalue="Python.6-lenet" />
+        <item itemvalue="Python.test4" />
+        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -379,6 +400,31 @@
           <url>file://$PROJECT_DIR$/.venv1/Lib/site-packages/d2l/torch.py</url>
           <line>561</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap7/3-padding and stride.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap9/test1.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap9/test1.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap9/test1.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap9/test3.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
