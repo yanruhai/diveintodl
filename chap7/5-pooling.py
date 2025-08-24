@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from d2l import torch as d2l
+#from d2l import torch as d2l
 
 def pool2d(X, pool_size, mode='max'):
     p_h, p_w = pool_size
@@ -26,4 +26,4 @@ print(X)
 print(X.shape)
 
 pool2d = nn.MaxPool2d(3, padding=1, stride=2)
-print(pool2d(X))
+print(pool2d(X).shape)

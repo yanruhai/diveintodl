@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from d2l import torch as d2l
+
 
 def corr2d(X, K):  #@save
     """Compute 2D cross-correlation."""
