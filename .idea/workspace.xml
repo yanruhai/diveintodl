@@ -5,15 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
-      <change afterPath="$PROJECT_DIR$/chap8/8.6-Residual networks and resnext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.7 densenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/diveintodl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diveintodl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/10.2 gated recurrent units(GRU).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/10.3 deeprecurrentneural networks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/10.4 bidirectionrecurrentneuralnetworks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/10.6the encoderdecoderarchitecture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.1 answer for 6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.2 answer for 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.2 answer for 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.3 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.3 answer for 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.3 answer for 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.4 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.4 answer for 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.4 answer for 5-googlenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.4 answer for 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.4_1(2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.5 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.5 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.5 answer for 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.5 answer for 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.5 answer for 6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/Resnet152.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/training manual.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap8/8.5-batch normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.5-batch normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap10/10.1 longshort-term memory(LSTZM）.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap10/10.1 longshort-term memory(LSTZM）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap8/1-deep convolutional neural network(alexnet).py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.1-deep convolutional neural network(alexnet).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap8/2-networks using blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.2-networks using blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap8/8-3 network in network.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.3 network in network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap8/8.4 multibranch network.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.4 multibranch network(goolenet).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap8/8.5-batch normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.5-batch normalization(BN).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap8/8.6-Residual networks and resnext.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.6-Residual networks and resnext.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +61,12 @@
     &quot;assignee&quot;: &quot;yanruhai&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/yanruhai/diveintodl.git&quot;,
-    &quot;accountId&quot;: &quot;27594e26-22b9-48de-9a96-d124a260e23e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yanruhai/diveintodl",
+    "accountId": "2f61ff7e-c308-47b4-91e1-a46c049b3c81"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.venv1/Lib/site-packages/d2l/__init__.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -54,98 +79,121 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1-datamaipulation (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.1-datamaipulation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1-deep convolutional neural network(alexnet).executor&quot;: &quot;Run&quot;,
-    &quot;Python.1-layers and modules.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1-multilayer perceptrons.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2-Implementation of Multilayer Perceptrons.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2-The Image Classification Dataset.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2-convolutions for images.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.2-datapreprocessing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2-networks using blocks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2-parameter management.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.3-linearalgebra.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-padding and stride.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-parameter initialization.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.7-1answer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.7-3answer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4-Numerical Stability and Initialization.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4-Softmax Regression Implementation from Scratch.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.4-calculus.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4-lazy initialization.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4-multiple input and multiple output channels.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.4.1 answer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.1.5-answer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.2 answer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.4.5 answer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.5.1 answer-b.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.5.1 answer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.5.2 answer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5-Concise Implementation of Softmax Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5-automaticdifferentiation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5-custom layers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5-custom layers2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.5-pooling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.2 answer for 4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.2 answer for 5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.2 answer for 6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.2-1 answer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.6 answer for 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.6 answer for 5-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.6 answer for 5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6-File io.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6-dropout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6-lenet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6-probabilityandstatistics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6.1 answer for 2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.6.2 answer for 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6.2 answer for 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7-Predicting House Prices on Kaggle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8-3 network in network.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8.5-batch normalization.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8.6-Residual networks and resnext.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8.7 densenet.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.9.1 workingwithsequences.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise2.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise2.5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.k-mean-cluster.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.learning-2-Object-Oriented Design for Implementation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.learning-3-syntheticregressiondata.executor&quot;: &quot;Run&quot;,
-    &quot;Python.learning-4-LinearRegressionfromScratch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.learning-5-ConciseImplementationofLinearRegression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.learning-6-WeightDecay.executor&quot;: &quot;Run&quot;,
-    &quot;Python.learning.executor&quot;: &quot;Run&quot;,
-    &quot;Python.second_order_differentiate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test7.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.test8.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.test9.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/pythonproj/diveintodl/chap6&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1-datamaipulation (1).executor": "Run",
+    "Python.1-datamaipulation.executor": "Run",
+    "Python.1-deep convolutional neural network(alexnet).executor": "Run",
+    "Python.1-layers and modules.executor": "Run",
+    "Python.1-multilayer perceptrons.executor": "Run",
+    "Python.10.2 gated recurrent units(GRU).executor": "Run",
+    "Python.10.3 deeprecurrentneural networks.executor": "Run",
+    "Python.10.4 bidirectionrecurrentneuralnetworks.executor": "Debug",
+    "Python.10.5 machine translation adn the dataset.executor": "Debug",
+    "Python.2-Implementation of Multilayer Perceptrons.executor": "Run",
+    "Python.2-The Image Classification Dataset.executor": "Run",
+    "Python.2-convolutions for images.executor": "Debug",
+    "Python.2-datapreprocessing.executor": "Run",
+    "Python.2-networks using blocks.executor": "Run",
+    "Python.2-parameter management.executor": "Debug",
+    "Python.3-linearalgebra.executor": "Run",
+    "Python.3-padding and stride.executor": "Run",
+    "Python.3-parameter initialization.executor": "Run",
+    "Python.3.7-1answer.executor": "Run",
+    "Python.3.7-3answer.executor": "Run",
+    "Python.4-Numerical Stability and Initialization.executor": "Run",
+    "Python.4-Softmax Regression Implementation from Scratch.executor": "Debug",
+    "Python.4-calculus.executor": "Run",
+    "Python.4-lazy initialization.executor": "Run",
+    "Python.4-multiple input and multiple output channels.executor": "Debug",
+    "Python.4.1 answer.executor": "Run",
+    "Python.4.1.5-answer.executor": "Run",
+    "Python.4.2 answer.executor": "Run",
+    "Python.4.4.5 answer.executor": "Run",
+    "Python.4.5.1 answer-b.executor": "Run",
+    "Python.4.5.1 answer.executor": "Run",
+    "Python.4.5.2 answer.executor": "Run",
+    "Python.5-Concise Implementation of Softmax Regression.executor": "Run",
+    "Python.5-automaticdifferentiation.executor": "Run",
+    "Python.5-custom layers.executor": "Run",
+    "Python.5-custom layers2.executor": "Debug",
+    "Python.5-pooling.executor": "Run",
+    "Python.5.2 answer for 4.executor": "Run",
+    "Python.5.2 answer for 5.executor": "Run",
+    "Python.5.2 answer for 6.executor": "Run",
+    "Python.5.2-1 answer.executor": "Run",
+    "Python.5.6 answer for 1.executor": "Run",
+    "Python.5.6 answer for 5-2.executor": "Run",
+    "Python.5.6 answer for 5.executor": "Run",
+    "Python.6-File io.executor": "Run",
+    "Python.6-dropout.executor": "Run",
+    "Python.6-lenet.executor": "Run",
+    "Python.6-probabilityandstatistics.executor": "Run",
+    "Python.6.1 answer for 2.executor": "Debug",
+    "Python.6.2 answer for 1.executor": "Run",
+    "Python.6.2 answer for 2.executor": "Run",
+    "Python.7-Predicting House Prices on Kaggle.executor": "Run",
+    "Python.8-3 network in network.executor": "Run",
+    "Python.8.1 answer for 6.executor": "Run",
+    "Python.8.1-deep convolutional neural network(alexnet).executor": "Run",
+    "Python.8.2 answer for 3.executor": "Run",
+    "Python.8.2-networks using blocks.executor": "Run",
+    "Python.8.3 answer for 1.executor": "Run",
+    "Python.8.3 answer for 3.executor": "Run",
+    "Python.8.3 answer for 5.executor": "Run",
+    "Python.8.3 network in network.executor": "Run",
+    "Python.8.4 answer for 1.executor": "Run",
+    "Python.8.4 answer for 3.executor": "Run",
+    "Python.8.4 multibranch network(goolenet) (1).executor": "Run",
+    "Python.8.4 multibranch network.executor": "Run",
+    "Python.8.4_1(2).executor": "Run",
+    "Python.8.5 answer for 2.executor": "Run",
+    "Python.8.5 answer for 4.executor": "Run",
+    "Python.8.5 answer for 5.executor": "Run",
+    "Python.8.5 answer for 6.executor": "Run",
+    "Python.8.5-batch normalization(BN).executor": "Run",
+    "Python.8.5-batch normalization.executor": "Run",
+    "Python.8.6-Residual networks and resnext.executor": "Run",
+    "Python.8.7 densenet.executor": "Debug",
+    "Python.9.1 workingwithsequences.executor": "Run",
+    "Python.Resnet152.executor": "Run",
+    "Python.exercise2.1.executor": "Run",
+    "Python.exercise2.5.executor": "Run",
+    "Python.k-mean-cluster.executor": "Debug",
+    "Python.learning-2-Object-Oriented Design for Implementation.executor": "Run",
+    "Python.learning-3-syntheticregressiondata.executor": "Run",
+    "Python.learning-4-LinearRegressionfromScratch.executor": "Run",
+    "Python.learning-5-ConciseImplementationofLinearRegression.executor": "Run",
+    "Python.learning-6-WeightDecay.executor": "Run",
+    "Python.learning.executor": "Run",
+    "Python.second_order_differentiate.executor": "Run",
+    "Python.test (1).executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.test10.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.test3.executor": "Run",
+    "Python.test4.executor": "Run",
+    "Python.test5.executor": "Run",
+    "Python.test6.executor": "Run",
+    "Python.test7.executor": "Debug",
+    "Python.test8.executor": "Debug",
+    "Python.test9.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/pythonproj/diveintodl/chap6",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\pythonproj\diveintodl\chap6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.9.1 workingwithsequences">
-    <configuration name="8.5-batch normalization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.8.6-Residual networks and resnext">
+    <configuration name="8.5 answer for 4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,7 +206,51 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.5-batch normalization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.5 answer for 4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8.5 answer for 5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="diveintodl" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.5 answer for 5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8.5 answer for 6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="diveintodl" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.5 answer for 6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8.7 densenet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Resnet152" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,51 +294,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.7 densenet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="9.1 workingwithsequences" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="diveintodl" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="diveintodl" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/Resnet152.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,18 +305,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.9.1 workingwithsequences" />
-        <item itemvalue="Python.8.7 densenet" />
-        <item itemvalue="Python.test2" />
         <item itemvalue="Python.8.6-Residual networks and resnext" />
-        <item itemvalue="Python.8.5-batch normalization" />
+        <item itemvalue="Python.Resnet152" />
+        <item itemvalue="Python.8.5 answer for 6" />
+        <item itemvalue="Python.8.5 answer for 5" />
+        <item itemvalue="Python.8.5 answer for 4" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -345,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753315264764</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gg">
+      <option name="closed" value="true" />
+      <created>1756013685667</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1756013685667</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -376,9 +432,19 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.venv1/Lib/site-packages/d2l/torch.py</url>
-          <line>561</line>
-          <option name="timeStamp" value="29" />
+          <url>file://$PROJECT_DIR$/chap10/10.4 bidirectionrecurrentneuralnetworks.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap10/10.4 bidirectionrecurrentneuralnetworks.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

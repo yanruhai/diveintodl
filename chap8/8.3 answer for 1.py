@@ -7,8 +7,9 @@ from d2l import torch as d2l
 def nin_block(out_channels, kernel_size, strides, padding):
     return nn.Sequential(
         nn.LazyConv2d(out_channels, kernel_size, strides, padding), nn.ReLU(),
-        nn.LazyConv2d(out_channels, kernel_size=1), nn.ReLU(),
-        nn.LazyConv2d(out_channels, kernel_size=1), nn.ReLU())
+        nn.LazyConv2d(out_channels, kernel_size=3,padding=1), nn.ReLU(),
+        nn.LazyConv2d(out_channels, kernel_size=3,padding=1), nn.ReLU()
+    )
 
 class NiN(d2l.Classifier):
     def __init__(self, lr=0.1, num_classes=10):

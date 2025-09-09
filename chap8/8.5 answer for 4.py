@@ -7,7 +7,7 @@ def batch_norm(X, gamma, beta, moving_mean, moving_var, eps, momentum):
     # Use is_grad_enabled to determine whether we are in training mode
     if not torch.is_grad_enabled():
         # In prediction mode, use mean and variance obtained by moving average
-        X_hat = (X - moving_mean) / torch.sqrt(moving_var + eps)
+        X_hat = (X -moving_mean )# / torch.sqrt(moving_var + eps)
     else:
         assert len(X.shape) in (2, 4)
         if len(X.shape) == 2:
@@ -21,11 +21,9 @@ def batch_norm(X, gamma, beta, moving_mean, moving_var, eps, momentum):
             # need to maintain the shape of X, so that the broadcasting
             # operation can be carried out later
             mean = X.mean(dim=(0, 2, 3), keepdim=True)
-            #mean(dim=(0, 2, 3)) 表示沿着维度0、2、3计算均值，即对 batch_size、height 和 width 维度求平均值，保留 channels 维度（维度1）
-            #如果 keepdim=True，输出的形状为 (1, C, 1, 1)，其中 C 是通道数，如果 keepdim=False，输出的形状为 (C,)
             var = ((X - mean) ** 2).mean(dim=(0, 2, 3), keepdim=True)
         # In training mode, the current mean and variance are used
-        X_hat = (X - mean) / torch.sqrt(var + eps)
+        X_hat = (X-mean) #/ torch.sqrt(var + eps)
         # Update the mean and variance using moving average
         moving_mean = (1.0 - momentum) * moving_mean + momentum * mean
         moving_var = (1.0 - momentum) * moving_var + momentum * var
@@ -63,8 +61,6 @@ class BatchNorm(nn.Module):
             self.moving_var, eps=1e-5, momentum=0.1)
         return Y
 
-
-
 class BNLeNetScratch(d2l.Classifier):
     def __init__(self, lr=0.1, num_classes=10):
         super().__init__()
@@ -74,38 +70,17 @@ class BNLeNetScratch(d2l.Classifier):
             nn.Sigmoid(), nn.AvgPool2d(kernel_size=2, stride=2),
             nn.LazyConv2d(16, kernel_size=5), BatchNorm(16, num_dims=4),
             nn.Sigmoid(), nn.AvgPool2d(kernel_size=2, stride=2),
+
             nn.Flatten(), nn.LazyLinear(120),
             BatchNorm(120, num_dims=2), nn.Sigmoid(), nn.LazyLinear(84),
             BatchNorm(84, num_dims=2), nn.Sigmoid(),
             nn.LazyLinear(num_classes))
 
-'''def main():
-    trainer = d2l.Trainer(max_epochs=10, num_gpus=1)
-    data = d2l.FashionMNIST(batch_size=128)
-    model = BNLeNetScratch(lr=0.1)
-    model.apply_init([next(iter(data.get_dataloader(True)))[0]], d2l.init_cnn)
-    trainer.fit(model, data)
-    plt.show()'''
-
-
-
-class BNLeNet(d2l.Classifier):
-    def __init__(self, lr=0.1, num_classes=10):
-        super().__init__()
-        self.save_hyperparameters()
-        self.net = nn.Sequential(
-            nn.LazyConv2d(6, kernel_size=5), nn.LazyBatchNorm2d(),
-            nn.Sigmoid(), nn.AvgPool2d(kernel_size=2, stride=2),
-            nn.LazyConv2d(16, kernel_size=5), nn.LazyBatchNorm2d(),
-            nn.Sigmoid(), nn.AvgPool2d(kernel_size=2, stride=2),
-            nn.Flatten(), nn.LazyLinear(120), nn.LazyBatchNorm1d(),
-            nn.Sigmoid(), nn.LazyLinear(84), nn.LazyBatchNorm1d(),
-            nn.Sigmoid(), nn.LazyLinear(num_classes))
 
 def main():
     trainer = d2l.Trainer(max_epochs=10, num_gpus=1)
     data = d2l.FashionMNIST(batch_size=128)
-    model = BNLeNet(lr=0.1)
+    model = BNLeNetScratch(lr=0.1)
     model.apply_init([next(iter(data.get_dataloader(True)))[0]], d2l.init_cnn)
     trainer.fit(model, data)
     plt.show()

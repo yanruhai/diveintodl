@@ -1,3 +1,5 @@
+import time
+
 import torch
 from matplotlib import pyplot as plt
 from torch import nn
@@ -34,6 +36,21 @@ class GoogleNet(d2l.Classifier):
             nn.LazyConv2d(64, kernel_size=7, stride=2, padding=3),
             nn.ReLU(), nn.MaxPool2d(kernel_size=3, stride=2, padding=1))
 
+    def deep_count(self,seq_instance):
+        for ss in seq_instance:
+            if isinstance(ss,nn.Sequential):
+                self.deep_count(ss)
+            else:
+                if isinstance(ss, (nn.Conv2d , nn.Linear)):
+                    self.parameter_num += torch.numel(ss.weight)
+
+    def forward(self, X):
+        t = super().forward(X)
+        self.parameter_num = 0
+        self.deep_count(self.net)
+        print("parameters:", self.parameter_num)  # 统计参数的数量
+        return t
+
 @d2l.add_to_class(GoogleNet)
 def b2(self):
     return nn.Sequential(
@@ -60,7 +77,7 @@ def b4(self):
 def b5(self):
     return nn.Sequential(Inception(256, (160, 320), (32, 128), 128),
                          Inception(384, (192, 384), (48, 128), 128),
-                         nn.AdaptiveAvgPool2d((1,1)), nn.Flatten())
+                         nn.AdaptiveAvgPool2d((1,1)), nn.Flatten())#nn.Flatten() 默认行为（start_dim=1, end_dim=-1）
 
 @d2l.add_to_class(GoogleNet)
 def __init__(self, lr=0.1, num_classes=10):
@@ -71,13 +88,14 @@ def __init__(self, lr=0.1, num_classes=10):
     self.net.apply(d2l.init_cnn)
 
 def main():
-    model = GoogleNet().layer_summary((1, 1, 96, 96))
-
+    start_time=time.time()
     model = GoogleNet(lr=0.01)
     trainer = d2l.Trainer(max_epochs=10, num_gpus=1)
-    data = d2l.FashionMNIST(batch_size=128, resize=(96, 96))
+    data = d2l.FashionMNIST(batch_size=128, resize=(224, 224))
     model.apply_init([next(iter(data.get_dataloader(True)))[0]], d2l.init_cnn)
     trainer.fit(model, data)
+    end_time=time.time()
+    print(end_time-start_time)#output is 163
     plt.show()
 
 if __name__ == '__main__':

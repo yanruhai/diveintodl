@@ -7,6 +7,7 @@ class AlexNet(d2l.Classifier):
     def __init__(self, lr=0.1, num_classes=10):
         super().__init__()
         self.save_hyperparameters()
+        self.parameter_num=0
         self.net = nn.Sequential(
             nn.LazyConv2d(96, kernel_size=11, stride=4, padding=1),
             nn.ReLU(), nn.MaxPool2d(kernel_size=3, stride=2),
@@ -21,6 +22,27 @@ class AlexNet(d2l.Classifier):
             nn.LazyLinear(num_classes))
         self.net.apply(d2l.init_cnn)
 
+    '''def deep_count(self, seq_instance):#计算参数量
+        for ss in seq_instance:
+            if isinstance(ss, nn.Sequential):
+                self.deep_count(ss)
+            else:
+                if isinstance(ss, (nn.Conv2d, nn.Linear)):
+                    self.parameter_num += torch.numel(ss.weight)
+
+    def forward(self, X):
+        t = super().forward(X)
+        self.parameter_num = 0
+        self.deep_count(self.net)
+        print("parameters:", self.parameter_num)  # 统计参数的数量
+        return t'''
+
+
+
+
+
+
+
 def main():
 
 
@@ -30,6 +52,7 @@ def main():
     data = d2l.FashionMNIST(batch_size=128, resize=(224, 224))
     trainer = d2l.Trainer(max_epochs=10,num_gpus=2)
     trainer.fit(model, data)
+
     plt.show()
 
 if __name__ == "__main__":#确保代码块只在直接运行时执行，而在被导入时不执行
