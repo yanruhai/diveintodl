@@ -5,40 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
-      <change afterPath="$PROJECT_DIR$/chap10/10.2 gated recurrent units(GRU).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap10/10.3 deeprecurrentneural networks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap10/10.4 bidirectionrecurrentneuralnetworks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap10/10.6the encoderdecoderarchitecture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap10/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.1 answer for 6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.2 answer for 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.2 answer for 4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.3 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.3 answer for 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.3 answer for 5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.4 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.4 answer for 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.4 answer for 5-googlenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.4 answer for 5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.4_1(2).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.5 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.5 answer for 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.5 answer for 4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.5 answer for 5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/8.5 answer for 6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/Resnet152.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap8/training manual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.6 Residual networks ResNeXtBlock test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.6 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.6 answer for 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.7 answer for 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.7 answer for 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.7 answer for 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.8 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.8 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.8 answer for 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/8.8 designingconvolutionnetworkarchitectures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap8/test6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.1 answer for 1.4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.1 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classify model example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression model example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap10/10.1 longshort-term memory(LSTZM）.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap10/10.1 longshort-term memory(LSTZM）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap8/1-deep convolutional neural network(alexnet).py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.1-deep convolutional neural network(alexnet).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap8/2-networks using blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.2-networks using blocks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap8/8-3 network in network.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.3 network in network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap8/8.4 multibranch network.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.4 multibranch network(goolenet).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap8/8.5-batch normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.5-batch normalization(BN).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap8/8.3 network in network.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.3 network in network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap8/8.5 answer for 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.5 answer for 6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chap8/8.6-Residual networks and resnext.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.6-Residual networks and resnext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap8/8.7 densenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8/8.7 densenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,10 +141,23 @@
     "Python.8.5 answer for 6.executor": "Run",
     "Python.8.5-batch normalization(BN).executor": "Run",
     "Python.8.5-batch normalization.executor": "Run",
+    "Python.8.6 Residual networks ResNeXtBlock test.executor": "Run",
+    "Python.8.6 answer for 2.executor": "Run",
+    "Python.8.6 answer for 4.executor": "Run",
     "Python.8.6-Residual networks and resnext.executor": "Run",
+    "Python.8.7 answer for 3.executor": "Run",
+    "Python.8.7 answer for 4.executor": "Run",
+    "Python.8.7 answer for 5.executor": "Run",
     "Python.8.7 densenet.executor": "Debug",
+    "Python.8.8 answer for 1.executor": "Run",
+    "Python.8.8 answer for 2.executor": "Run",
+    "Python.8.8 answer for 3.executor": "Run",
+    "Python.8.8 designingconvolutionnetworkarchitectures.executor": "Run",
+    "Python.9.1 answer for 1.4.executor": "Run",
+    "Python.9.1 answer for 1.executor": "Debug",
     "Python.9.1 workingwithsequences.executor": "Run",
     "Python.Resnet152.executor": "Run",
+    "Python.classify model example.executor": "Run",
     "Python.exercise2.1.executor": "Run",
     "Python.exercise2.5.executor": "Run",
     "Python.k-mean-cluster.executor": "Debug",
@@ -166,6 +167,7 @@
     "Python.learning-5-ConciseImplementationofLinearRegression.executor": "Run",
     "Python.learning-6-WeightDecay.executor": "Run",
     "Python.learning.executor": "Run",
+    "Python.regression model example.executor": "Run",
     "Python.second_order_differentiate.executor": "Run",
     "Python.test (1).executor": "Run",
     "Python.test.executor": "Run",
@@ -174,7 +176,7 @@
     "Python.test2.executor": "Run",
     "Python.test3.executor": "Run",
     "Python.test4.executor": "Run",
-    "Python.test5.executor": "Run",
+    "Python.test5.executor": "Debug",
     "Python.test6.executor": "Run",
     "Python.test7.executor": "Debug",
     "Python.test8.executor": "Debug",
@@ -184,7 +186,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/pythonproj/diveintodl/chap6",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -192,8 +194,8 @@
       <recent name="C:\pythonproj\diveintodl\chap6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.8.6-Residual networks and resnext">
-    <configuration name="8.5 answer for 4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.9.1 answer for 1.4">
+    <configuration name="8.8 answer for 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,7 +208,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.5 answer for 4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.8 answer for 2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8.5 answer for 5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8.8 answer for 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,7 +230,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.5 answer for 5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.8 answer for 3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8.5 answer for 6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="9.1 answer for 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,11 +248,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.5 answer for 6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/9.1 answer for 1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8.6-Residual networks and resnext" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="9.1 answer for 1.4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,11 +270,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/8.6-Residual networks and resnext.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/9.1 answer for 1.4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,7 +283,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Resnet152" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="9.1 workingwithsequences" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,11 +292,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap8/Resnet152.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,11 +307,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.8.6-Residual networks and resnext" />
-        <item itemvalue="Python.Resnet152" />
-        <item itemvalue="Python.8.5 answer for 6" />
-        <item itemvalue="Python.8.5 answer for 5" />
-        <item itemvalue="Python.8.5 answer for 4" />
+        <item itemvalue="Python.9.1 answer for 1.4" />
+        <item itemvalue="Python.9.1 answer for 1" />
+        <item itemvalue="Python.9.1 workingwithsequences" />
+        <item itemvalue="Python.8.8 answer for 3" />
+        <item itemvalue="Python.8.8 answer for 2" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756013685667</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="gg">
+      <option name="closed" value="true" />
+      <created>1757381912314</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757381912314</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -445,6 +455,31 @@
           <url>file://$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py</url>
           <line>92</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap8/test5.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap8/test5.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap8/8.7 densenet.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap8/8.8 answer for 1.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap9/9.1 answer for 1.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

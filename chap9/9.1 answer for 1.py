@@ -3,11 +3,14 @@ from matplotlib import pyplot as plt
 from torch import nn
 from d2l import torch as d2l
 
+
+
 class Data(d2l.DataModule):
     def __init__(self, batch_size=16, T=1000, num_train=600, tau=4):
         self.save_hyperparameters()
         self.time = torch.arange(1, T + 1, dtype=torch.float32)
-        self.x = torch.sin(0.01 * self.time) + torch.randn(T) * 0.2
+        #self.x = torch.sin(0.01 * self.time) + torch.randn(T) * 0.2
+        self.x = torch.sin(0.01 * self.time) #第二问修改
 #每行4列数据做预测
     def get_dataloader(self, train):
         features = [self.x[i : self.T-self.tau+i] for i in range(self.tau)]#生成T*4的张量
@@ -16,7 +19,7 @@ class Data(d2l.DataModule):
         i = slice(0, self.num_train) if train else slice(self.num_train, None)#获得训练或验证模式下标
         return self.get_tensorloader([self.features, self.labels], train, i)
 
-data = Data()
+data = Data(tau=4)
 d2l.plot(data.time, data.x, 'time', 'x', xlim=[1, 1000], figsize=(6, 3))
 #plt.show()
 
@@ -51,9 +54,12 @@ def k_step_pred(k):
         #如果原始张量是三维形状 (a, b, c)，使用 reshape(-1) 后，结果会是1 维张量，形状为 (a×b×c,)
     return features[data.tau:]
 
+
+tau_list=range(20)
+
+
 steps = (2,4, 16, 64)
 preds = k_step_pred(steps[-1])#预测出的结果,64个列表，每个列表(933,)
-mm=[preds[k - 1].detach().numpy() for k in steps]
 d2l.plot(data.time[data.tau+steps[-1]-1:],
          [preds[k - 1].detach().numpy() for k in steps], 'time', 'x',
          legend=[f'{k}-step preds' for k in steps], figsize=(6, 3))

@@ -1,5 +1,4 @@
 import time
-
 import torch
 from matplotlib import pyplot as plt
 from torch import nn
@@ -45,7 +44,7 @@ class DenseNet(d2l.Classifier):
 
 
 @d2l.add_to_class(DenseNet)
-def __init__(self, num_channels=64, growth_rate=32, arch=(4, 4, 4, 4),
+def __init__(self, num_channels=64, growth_rate=32, arch=(6, 12, 24, 16),
              lr=0.1, num_classes=10):
     super(DenseNet, self).__init__()
     self.save_hyperparameters()
@@ -70,7 +69,7 @@ def main():
         start_time=time.time()
         model = DenseNet(lr=0.01)
         trainer = d2l.Trainer(max_epochs=10, num_gpus=1)
-        data = d2l.FashionMNIST(batch_size=128, resize=(96, 96))
+        data = d2l.FashionMNIST(batch_size=128, resize=(224, 224))
         trainer.fit(model, data)
         elapse_time=time.time()-start_time
         print('elapse:',elapse_time)

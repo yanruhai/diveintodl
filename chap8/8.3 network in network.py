@@ -90,7 +90,7 @@ def main2():
     print(f"缓存内存: {torch.cuda.memory_reserved() / 1024 ** 2:.2f} MB")
 
     # 训练
-    trainer = d2l.Trainer(max_epochs=10, num_gpus=1)
+    trainer = d2l.Trainer(max_epochs=30, num_gpus=1)
     trainer.fit(model, data)
     plt.show()
 

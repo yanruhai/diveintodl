@@ -21,12 +21,12 @@ class Residual(nn.Module):  #@save
         self.bn2 = nn.LazyBatchNorm2d()
 
     def forward(self, X):
-        Y = F.relu(self.bn1(self.conv1(X)))
-        Y = self.bn2(self.conv2(Y))
+        Y = self.conv1(F.relu(self.bn1(X)))
+        Y = self.conv2(F.relu(self.bn2(Y)))
         if self.conv3:
             X = self.conv3(X)
         Y += X
-        return F.relu(Y)
+        return Y
 
 blk = Residual(3)
 X = torch.randn(4, 3, 6, 6)
@@ -72,7 +72,18 @@ class ResNet18(ResNet):
 
 #ResNet18().layer_summary((1, 1, 96, 96))
 
-
+def main():
+    model = ResNet18(lr=0.01)
+    trainer = d2l.Trainer(max_epochs=10, num_gpus=1)
+    data = d2l.FashionMNIST(batch_size=128, resize=(96, 96))
+    model.apply_init([next(iter(data.get_dataloader(True)))[0]], d2l.init_cnn)
+    trainer.fit(model, data)
+    plt.show()
+    blk = ResNeXtBlock(32, 16, 1)
+    X = torch.randn(4, 32, 96, 96)
+    print(blk(X).shape)
+if __name__ == "__main__":#确保代码块只在直接运行时执行，而在被导入时不执行
+    main()
 
 
 class ResNeXtBlock(nn.Module):  #@save
@@ -104,19 +115,4 @@ class ResNeXtBlock(nn.Module):  #@save
             X = self.bn4(self.conv4(X))
         return F.relu(Y + X)
 
-
-def main():
-    model = ResNet18(lr=0.01)
-    trainer = d2l.Trainer(max_epochs=10, num_gpus=1)
-    data = d2l.FashionMNIST(batch_size=128, resize=(96, 96))
-    model.apply_init([next(iter(data.get_dataloader(True)))[0]], d2l.init_cnn)
-    #trainer.fit(model, data)
-    #plt.show()
-    blk = ResNeXtBlock(32, 16, 1)
-    X = torch.randn(4, 32, 96, 96)
-    trainer.fit(blk,data)
-    plt.show()
-    print(blk(X).shape)
-if __name__ == "__main__":#确保代码块只在直接运行时执行，而在被导入时不执行
-    main()
 

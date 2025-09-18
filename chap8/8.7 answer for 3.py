@@ -67,11 +67,20 @@ def __init__(self, num_channels=64, growth_rate=32, arch=(4, 4, 4, 4),
         nn.LazyLinear(num_classes)))
     self.net.apply(d2l.init_cnn)
 def main():
+    # 清空 GPU 缓存
+        torch.cuda.empty_cache()
+        print(f"初始内存: {torch.cuda.memory_allocated() / 1024 ** 2:.2f} MB")
+
         start_time=time.time()
         model = DenseNet(lr=0.01)
+        model.to(torch.device('cuda' if torch.cuda.is_available() else 'cpu'))  # 关键: 移动模型到 GPU
+        print(f"模型加载后内存: {torch.cuda.memory_allocated() / 1024 ** 2:.2f} MB")
         trainer = d2l.Trainer(max_epochs=10, num_gpus=1)
-        data = d2l.FashionMNIST(batch_size=128, resize=(96, 96))
+        data = d2l.FashionMNIST(batch_size=128, resize=(224, 224))
         trainer.fit(model, data)
+        print(f"前向传播后内存: {torch.cuda.memory_allocated() / 1024 ** 2:.2f} MB")
+        print(f"峰值内存: {torch.cuda.max_memory_allocated() / 1024 ** 2:.2f} MB")
+        print(f"缓存内存: {torch.cuda.memory_reserved() / 1024 ** 2:.2f} MB")
         elapse_time=time.time()-start_time
         print('elapse:',elapse_time)
         plt.show()

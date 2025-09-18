@@ -20,7 +20,7 @@ class NiN(d2l.Classifier):
             nin_block(256, kernel_size=5, strides=1, padding=2),#output_size=26*26
             nn.MaxPool2d(3, stride=2),#output_size=12*12
             nin_block(384, kernel_size=3, strides=1, padding=1),#output_size=12*12
-            nn.LazyBatchNorm2d(), nn.MaxPool2d(3, stride=2),#output_size=5*5
+            nn.LazyBatchNorm2d(),nn.Dropout(0.3), nn.MaxPool2d(3, stride=2),#output_size=5*5
             nin_block(num_classes, kernel_size=3, strides=1, padding=1),#output_size=5*5
             nn.AdaptiveAvgPool2d((1, 1)),
             nn.Flatten())
