@@ -11,8 +11,7 @@ class TimeMachine(d2l.DataModule): #@save
     def _download(self):
         fname = d2l.download(d2l.DATA_URL + 'timemachine.txt', self.root,
                              '090b5e7e70c295757f55df93cb0a180b9691891a')
-        with open(fname) as f:#用于文件操作的上下文管理器（context manager）
-            # 语法，主要作用是安全、自动地处理文件的打开和关闭，避免因忘记关闭文件而导致的资源泄露问题
+        with open(fname) as f:
             return f.read()
 
 data = TimeMachine()
@@ -21,7 +20,7 @@ raw_text[:60]
 
 @d2l.add_to_class(TimeMachine)  #@save
 def _preprocess(self, text):
-    return re.sub('[^A-Za-z]+', ' ', text).lower()
+    return re.sub('[^A-Za-z]+', ' ', text).lower()#将所有不是英文字母的字符，+表示一个或多个，替换成空格
 
 text = data._preprocess(raw_text)
 text[:60]
@@ -30,7 +29,7 @@ text[:60]
 def _tokenize(self, text):
     return list(text)
 
-tokens = data._tokenize(text)
+tokens = text.split()
 ','.join(tokens[:30])
 
 class Vocab:  #@save
@@ -84,17 +83,33 @@ self.idx_to_token = list(sorted_tokens)
     def unk(self):  # Index for the unknown token
         return self.token_to_idx['<unk>']
 
+freq_len={}
+for min_f in range(0,1000,10):
+    vocab = Vocab(tokens,min_freq=min_f)
+    len_v=len(vocab)
+    freq_len[min_f]=len_v
+    print(f'最小频率为{min_f}时长度为:{len_v}')
+    indices = vocab[tokens[:10]]
 
-vocab = Vocab(tokens)
-indices = vocab[tokens[:10]]
-print('indices:', indices)
-print('words:', vocab.to_tokens(indices))
+    print('indices:', indices)
+    print('words:', vocab.to_tokens(indices))
+
+freq_list=freq_len.keys()
+vo_list=freq_len.values()
+plt.figure(figsize=(8, 4))
+plt.plot(freq_list,vo_list)
+plt.xlabel('min_freq')
+plt.ylabel('size of voc')
+plt.xscale('log')
+plt.yscale('log')
+plt.legend()
+plt.show()
 
 @d2l.add_to_class(TimeMachine)  #@save
 def build(self, raw_text, vocab=None):
     tokens = self._tokenize(self._preprocess(raw_text))
-    if vocab is None: vocab = Vocab(tokens)#生成字典对象
-    corpus = [vocab[token] for token in tokens]#根据字典对象，产生按顺序的token的下标列表
+    if vocab is None: vocab = Vocab(tokens)
+    corpus = [vocab[token] for token in tokens]
     return corpus, vocab
 
 corpus, vocab = data.build(raw_text)
@@ -125,25 +140,4 @@ trigram_freqs = [freq for token, freq in trigram_vocab.token_freqs]
 d2l.plot([freqs, bigram_freqs, trigram_freqs], xlabel='token: x',
          ylabel='frequency: n(x)', xscale='log', yscale='log',
          legend=['unigram', 'bigram', 'trigram'])
-#plt.show()
-#9.3节开始
-@d2l.add_to_class(d2l.TimeMachine)  #@save
-def __init__(self, batch_size, num_steps, num_train=10000, num_val=5000):
-    super(d2l.TimeMachine, self).__init__()
-    self.save_hyperparameters()
-    corpus, self.vocab = self.build(self._download())
-    array = torch.tensor([corpus[i:i+num_steps+1]
-                        for i in range(len(corpus)-num_steps)])
-    self.X, self.Y = array[:,:-1], array[:,1:]
-
-
-@d2l.add_to_class(d2l.TimeMachine)  #@save
-def get_dataloader(self, train):
-    idx = slice(0, self.num_train) if train else slice(
-        self.num_train, self.num_train + self.num_val)
-    return self.get_tensorloader([self.X, self.Y], train, idx)
-
-data = d2l.TimeMachine(batch_size=2, num_steps=10)
-for X, Y in data.train_dataloader():
-    print('X:', X, '\nY:', Y)
-    break
+plt.show()

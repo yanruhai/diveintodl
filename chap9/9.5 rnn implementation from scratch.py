@@ -26,10 +26,11 @@ def forward(self, inputs, state=None):
         state, = state#等价于state = state[0] Python 中的一种解构赋值（unpacking）语法
     outputs = []
     for X in inputs:  # Shape of inputs: (num_steps, batch_size, num_inputs)
+        #按照第一维循环，每次读取 (batch_size,num_inputs).依次计算h1,h2...
         state = torch.tanh(torch.matmul(X, self.W_xh) +
                          torch.matmul(state, self.W_hh) + self.b_h)
-        outputs.append(state)
-    return outputs, state
+        outputs.append(state)#产生[h1,h2,...,ht]列表
+    return outputs, state#继续新的批次可能需要当前的ht作为新批次的h0
 
 batch_size, num_inputs, num_hiddens, num_steps = 2, 16, 32, 100
 rnn = RNNScratch(num_inputs, num_hiddens)
@@ -45,8 +46,10 @@ def check_shape(a, shape):  #@save
     """Check the shape of a tensor."""
     assert a.shape == shape, \
             f'tensor\'s shape {a.shape} != expected shape {shape}'
+    #当条件表达式为 True 时，assert 什么也不做，程序继续执行。
+#当条件表达式为 False 时，assert 会触发 AssertionError 异常，并将逗号后的 “错误提示信息” 作为异常的描述内容。
 
-check_len(outputs, num_steps)
+check_len(outputs, num_steps)#输出的长度应该等于输入的第一维,就是forward中的循环次数
 check_shape(outputs[0], (batch_size, num_hiddens))
 check_shape(state, (batch_size, num_hiddens))
 
@@ -60,10 +63,12 @@ class RNNLMScratch(d2l.Classifier):  #@save
     def init_params(self):
         self.W_hq = nn.Parameter(
             torch.randn(
-                self.rnn.num_hiddens, self.vocab_size) * self.rnn.sigma)
+                self.rnn.num_hiddens, self.vocab_size) * self.rnn.sigma)#用于输出的Whq
         self.b_q = nn.Parameter(torch.zeros(self.vocab_size))
 
+
     def training_step(self, batch):
+      #batch是list[2]，如果传入batch[0]会导致为[x]数据，格式错误，所以需要解包
         l = self.loss(self(*batch[:-1]), batch[-1])
         self.plot('ppl', torch.exp(l), train=True)
         return l
@@ -79,12 +84,13 @@ def one_hot(self, X):
 
 @d2l.add_to_class(RNNLMScratch)  #@save
 def output_layer(self, rnn_outputs):
+    # 得到维度为batch_size*one_hot张量的列表，列表按时间步排列
     outputs = [torch.matmul(H, self.W_hq) + self.b_q for H in rnn_outputs]
-    return torch.stack(outputs, 1)
+    return torch.stack(outputs, 1)#将时间步放在第一维，堆起来，得到(batch_size*time_steps*one_hot)张量
 
 @d2l.add_to_class(RNNLMScratch)  #@save
 def forward(self, X, state=None):
-    embs = self.one_hot(X)
+    embs = self.one_hot(X)#one_hot后得到维度(num_steps, batch_size, vocab_size)张量
     rnn_outputs, _ = self.rnn(embs, state)
     return self.output_layer(rnn_outputs)
 

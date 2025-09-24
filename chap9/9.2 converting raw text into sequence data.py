@@ -20,7 +20,7 @@ raw_text[:60]
 
 @d2l.add_to_class(TimeMachine)  #@save
 def _preprocess(self, text):
-    return re.sub('[^A-Za-z]+', ' ', text).lower()
+    return re.sub('[^A-Za-z]+', ' ', text).lower()#将所有不是英文字母的字符，+表示一个或多个，替换成空格
 
 text = data._preprocess(raw_text)
 text[:60]
