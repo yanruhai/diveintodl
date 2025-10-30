@@ -5,14 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
-      <change afterPath="$PROJECT_DIR$/chap9/9.2 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap9/9.2 answer for 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap9/test6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap9/test7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/10.1 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/10.1 answer for 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/10.3 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap10/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.5 answer for 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.5 answer for 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.5 answer for 6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.5 answer for 7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.5 answer for 8-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.5 answer for 8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.5 answer for 9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/9.6 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/test10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/test11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/test8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap9/test9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap9/9.2 converting raw text into sequence data.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap9/9.2 converting raw text into sequence data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap9/9.3 language models.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap9/9.3 language models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap10/10.1 longshort-term memory(LSTZM）.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap10/10.1 longshort-term memory(LSTZM）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap10/10.2 gated recurrent units(GRU).py" beforeDir="false" afterPath="$PROJECT_DIR$/chap10/10.2 gated recurrent units(GRU).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap10/10.3 deeprecurrentneural networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap10/10.3 deeprecurrentneural networks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap10/10.4 bidirectionrecurrentneuralnetworks.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap10/10.4 bidirectionrecurrentneuralnetworks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap9/9.1 workingwithsequences.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chap9/9.5 rnn implementation from scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap9/9.5 rnn implementation from scratch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap9/9.6 concise implementation of RNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap9/9.6 concise implementation of RNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap9/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap9/test1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +79,13 @@
     "Python.1-deep convolutional neural network(alexnet).executor": "Run",
     "Python.1-layers and modules.executor": "Run",
     "Python.1-multilayer perceptrons.executor": "Run",
+    "Python.10.1 answer for 1.executor": "Run",
+    "Python.10.1 answer for 5.executor": "Run",
+    "Python.10.1 longshort-term memory(LSTZM）.executor": "Run",
     "Python.10.2 gated recurrent units(GRU).executor": "Run",
-    "Python.10.3 deeprecurrentneural networks.executor": "Run",
-    "Python.10.4 bidirectionrecurrentneuralnetworks.executor": "Debug",
+    "Python.10.3 answer for 1.executor": "Run",
+    "Python.10.3 deeprecurrentneural networks.executor": "Debug",
+    "Python.10.4 bidirectionrecurrentneuralnetworks.executor": "Run",
     "Python.10.5 machine translation adn the dataset.executor": "Debug",
     "Python.2-Implementation of Multilayer Perceptrons.executor": "Run",
     "Python.2-The Image Classification Dataset.executor": "Run",
@@ -141,12 +164,21 @@
     "Python.8.8 designingconvolutionnetworkarchitectures.executor": "Run",
     "Python.9.1 answer for 1.4.executor": "Run",
     "Python.9.1 answer for 1.executor": "Debug",
-    "Python.9.1 workingwithsequences.executor": "Run",
+    "Python.9.1 workingwithsequences.executor": "Debug",
     "Python.9.2 answer for 1.executor": "Run",
     "Python.9.2 answer for 3.executor": "Run",
     "Python.9.2 converting raw text into sequence data.executor": "Debug",
     "Python.9.3 language models.executor": "Run",
-    "Python.9.5 rnn implementation from scratch.executor": "Debug",
+    "Python.9.5 answer for 4.executor": "Run",
+    "Python.9.5 answer for 5.executor": "Run",
+    "Python.9.5 answer for 6.executor": "Run",
+    "Python.9.5 answer for 7.executor": "Run",
+    "Python.9.5 answer for 8-2.executor": "Run",
+    "Python.9.5 answer for 8.executor": "Run",
+    "Python.9.5 answer for 9.executor": "Run",
+    "Python.9.5 rnn implementation from scratch.executor": "Run",
+    "Python.9.6 answer for 1.executor": "Run",
+    "Python.9.6 concise implementation of RNN.executor": "Run",
     "Python.Resnet152.executor": "Run",
     "Python.classify model example.executor": "Run",
     "Python.exercise2.1.executor": "Run",
@@ -163,21 +195,22 @@
     "Python.test (1).executor": "Run",
     "Python.test.executor": "Run",
     "Python.test1.executor": "Run",
-    "Python.test10.executor": "Run",
+    "Python.test10.executor": "Debug",
+    "Python.test11.executor": "Debug",
     "Python.test2.executor": "Run",
     "Python.test3.executor": "Run",
     "Python.test4.executor": "Run",
     "Python.test5.executor": "Debug",
     "Python.test6.executor": "Run",
     "Python.test7.executor": "Debug",
-    "Python.test8.executor": "Debug",
-    "Python.test9.executor": "Run",
+    "Python.test8.executor": "Run",
+    "Python.test9.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/pythonproj/diveintodl/chap6",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+    "settings.editor.selected.configurable": "debugger.dataViews.python.type.renderers"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -185,8 +218,8 @@
       <recent name="C:\pythonproj\diveintodl\chap6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.9.5 rnn implementation from scratch">
-    <configuration name="9.2 answer for 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.10.3 answer for 1">
+    <configuration name="10.2 gated recurrent units(GRU)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,11 +228,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/9.2 answer for 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap10/10.2 gated recurrent units(GRU).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,7 +241,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9.2 answer for 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10.3 answer for 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,11 +250,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/9.2 answer for 3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap10/10.3 answer for 1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,7 +263,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9.5 rnn implementation from scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10.4 bidirectionrecurrentneuralnetworks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,11 +272,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/9.5 rnn implementation from scratch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap10/10.4 bidirectionrecurrentneuralnetworks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,7 +285,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10.5 machine translation adn the dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,11 +294,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/test6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,7 +307,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,11 +316,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap9/test7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap10/test4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,11 +331,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.9.5 rnn implementation from scratch" />
-        <item itemvalue="Python.test7" />
-        <item itemvalue="Python.9.2 answer for 3" />
-        <item itemvalue="Python.test6" />
-        <item itemvalue="Python.9.2 answer for 1" />
+        <item itemvalue="Python.10.3 answer for 1" />
+        <item itemvalue="Python.10.5 machine translation adn the dataset" />
+        <item itemvalue="Python.test4" />
+        <item itemvalue="Python.10.4 bidirectionrecurrentneuralnetworks" />
+        <item itemvalue="Python.10.2 gated recurrent units(GRU)" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758175767961</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="gg">
+      <option name="closed" value="true" />
+      <created>1758678046102</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1758678046102</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -439,21 +480,6 @@
           <url>file://$PROJECT_DIR$/chap6/5-custom layers2.py</url>
           <line>17</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chap10/10.4 bidirectionrecurrentneuralnetworks.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chap10/10.4 bidirectionrecurrentneuralnetworks.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/chap8/test5.py</url>
@@ -486,11 +512,43 @@
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chap9/9.5 rnn implementation from scratch.py</url>
-          <line>112</line>
-          <option name="timeStamp" value="120" />
+          <url>file://$PROJECT_DIR$/chap9/9.5 answer for 7.py</url>
+          <line>154</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap9/test9.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap9/9.1 workingwithsequences.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap9/test11.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap9/9.6 answer for 1.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="277" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

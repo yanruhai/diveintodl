@@ -26,8 +26,8 @@ rnn_block = StackedRNNScratch(num_inputs=len(data.vocab),
                               num_hiddens=32, num_layers=2)
 model = d2l.RNNLMScratch(rnn_block, vocab_size=len(data.vocab), lr=2)
 trainer = d2l.Trainer(max_epochs=100, gradient_clip_val=1, num_gpus=1)
-trainer.fit(model, data)
-plt.show()
+#trainer.fit(model, data)
+#plt.show()
 
 #concise implementation
 
@@ -39,7 +39,17 @@ class GRU(d2l.RNN):  #@save
         self.rnn = nn.GRU(num_inputs, num_hiddens, num_layers,
                           dropout=dropout)
 
+class LSTM(d2l.RNN):
+    def __init__(self, num_inputs, num_hiddens,num_layers):
+        d2l.Module.__init__(self)
+        self.save_hyperparameters()
+        self.rnn = nn.LSTM(num_inputs, num_hiddens,num_layers)
+
+    def forward(self, inputs, H_C=None):
+        return self.rnn(inputs, H_C)
+
+lstm=LSTM(num_inputs=len(data.vocab), num_hiddens=32,num_layers=2)
 gru = GRU(num_inputs=len(data.vocab), num_hiddens=32, num_layers=2)
-model = d2l.RNNLM(gru, vocab_size=len(data.vocab), lr=2)
-#trainer.fit(model, data)
-#plt.show()
+model = d2l.RNNLM(lstm, vocab_size=len(data.vocab), lr=2)
+trainer.fit(model, data)
+plt.show()
