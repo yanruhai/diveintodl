@@ -1,59 +1,59 @@
 import torch
-from matplotlib import pyplot as plt
 from torch import nn
+import torch.nn.functional as F
 from d2l import torch as d2l
-from torch.nn import functional as F
 
-#这个例子代码有问题，跑不起来
 class BiRNNScratch(d2l.Module):
     def __init__(self, vocab_size, embed_size, num_hiddens, sigma=0.01):
         super().__init__()
         self.save_hyperparameters()
-        self.lr=2
+        self.lr=1
         self.embedding = nn.Embedding(vocab_size, embed_size)
-        self.f_rnn = d2l.RNNScratch(embed_size, num_hiddens, sigma)
-        self.b_rnn = d2l.RNNScratch(embed_size, num_hiddens, sigma)
-        self.num_hiddens *= 2  # The output dimension will be doubled
-        # 3. 输出层：将隐藏状态映射到词汇表维度（关键缺失部分）
-        self.output = nn.Linear(self.num_hiddens, vocab_size)
-        # 4. 损失函数（交叉熵损失，适用于分类任务）
-        self.loss = nn.CrossEntropyLoss()
+        self.rnn_f = d2l.RNNScratch(embed_size, num_hiddens, sigma)
+        self.rnn_b = d2l.RNNScratch(embed_size, num_hiddens, sigma)
+        self.linear = nn.Linear(num_hiddens * 2, vocab_size)
 
-@d2l.add_to_class(BiRNNScratch)
-def forward(self, inputs, Hs=None):
-    f_H, b_H = Hs if Hs is not None else (None, None)
-    inputs = self.embedding(inputs.T).permute(1, 0, 2)  # 适配RNN输入格式
-    f_outputs, f_H = self.f_rnn(inputs, f_H)
-    b_outputs, b_H = self.b_rnn(reversed(inputs), b_H)#reversed() 不会修改原序列，而是返回一个新的反向迭代器
-    outputs = [torch.cat((f, b), -1) for f, b in zip(
-        f_outputs, reversed(b_outputs))]
-    return outputs, (f_H, b_H)
+    def forward(self, X, state=None):
+        embs = self.embedding(X.T).permute(1, 0, 2)  # (T, B, E)
+        f_state, b_state = (None, None) if state is None else state
 
-@d2l.add_to_class(BiRNNScratch)
-def training_step(self, batch):
-    l = self.loss(self(*batch[:-1]), batch[-1])
-    self.plot('ppl', d2l.exp(l), train=True)
+        f_outputs, f_state = self.rnn_f(embs, f_state)                   # list[T]
+        b_outputs, b_state = self.rnn_b(embs.flip(0), b_state)           # list[T] (已反向)
+        b_outputs = b_outputs[::-1]                                      # 恢复正序
 
-    return l
+        outputs = [torch.cat((f, b), dim=-1) for f, b in zip(f_outputs, b_outputs)]
+        outputs = torch.stack(outputs)                   # (T, B, 2*H)
+        outputs = self.linear(outputs)                   # (T, B, V)
+        outputs = outputs.permute(1, 0, 2).contiguous()  # (B, T, V)
+        return outputs, (f_state, b_state)
 
-@d2l.add_to_class(BiRNNScratch)
-def validation_step(self, batch):
-        l = self.loss(self(*batch[:-1]), batch[-1])
-        self.plot('ppl', d2l.exp(l), train=False)
+    def loss(self, Y_hat, Y):
+        # Y_hat: (B, T, V), Y: (B, T)
+        # 关键：两者都切到长度 T-1，且用 contiguous().view 彻底避免 view 共享内存问题
+        return F.cross_entropy(
+            Y_hat[:, :-1, :].contiguous().view(-1, Y_hat.shape[-1]),
+            Y[:, 1:].contiguous().view(-1),
+            reduction='mean'
+        )
 
-@d2l.add_to_class(BiRNNScratch)
-def loss(self, Y_hat, Y):
-    """Defined in :numref:`sec_softmax_concise`"""
-    return F.cross_entropy(
-        Y_hat, Y, reduction='mean' )
+    def training_step(self, batch):
+        X, Y = batch
+        Y_hat, _ = self(X)
+        l = self.loss(Y_hat, Y)
+        self.plot('ppl', torch.exp(l.detach()), train=True)
+        return l
+
+    def validation_step(self, batch):
+        X, Y = batch
+        Y_hat, _ = self(X)
+        l = self.loss(Y_hat, Y)
+        self.plot('ppl', torch.exp(l.detach()), train=False)
+        return l
 
 
-
+# ====================== 直接复制运行 ======================
 data = d2l.TimeMachine(batch_size=1024, num_steps=32)
-vocab_size = len(data.vocab)
-embed_size = 32  # 嵌入维度（可自定义，需与RNN输入维度一致）
+model = BiRNNScratch(len(data.vocab), embed_size=32, num_hiddens=128)
 
-model = BiRNNScratch(len(data.vocab),embed_size=embed_size,num_hiddens=128)
-trainer = d2l.Trainer(max_epochs=100, gradient_clip_val=1, num_gpus=1)
+trainer = d2l.Trainer(max_epochs=200, gradient_clip_val=1, num_gpus=1)
 trainer.fit(model, data)
-plt.show()

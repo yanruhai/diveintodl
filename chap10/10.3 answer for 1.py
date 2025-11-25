@@ -21,11 +21,37 @@ def forward(self, inputs, Hs=None):
         outputs = torch.stack(outputs, 0)
     return outputs, Hs
 
+@d2l.add_to_class(d2l.TimeMachine)
+def _download2(self):
+    fname = d2l.download('https://www.gutenberg.org/cache/epub/77146/pg77146.txt', self.root,
+                         '090b5e7e70c295757f55df93cb0a180b9691891a')#Buddhism & science by Paul Dahlke
+    with open(fname,encoding='utf-8') as f:
+        return f.read()
+    'https://www.gutenberg.org/cache/epub/1342/pg1342.txt'
+
+@d2l.add_to_class(d2l.TimeMachine)
+def _download3(self):
+    fname = d2l.download('https://www.gutenberg.org/cache/epub/1342/pg1342.txt', self.root,
+                         '090b5e7e70c295757f55df93cb0a180b9691891a')#Pride and Prejudice by Jane Austen
+    with open(fname,encoding='utf-8') as f:
+        return f.read()
+
+@d2l.add_to_class(d2l.TimeMachine)
+def __init__(self, batch_size, num_steps, num_train=10000, num_val=5000):
+        """Defined in :numref:`sec_language-model`"""
+        super(d2l.TimeMachine, self).__init__()
+        self.save_hyperparameters()
+        corpus, self.vocab = self.build(self._download()+self._download2()+self._download3())
+        print('corpus长度为',len(corpus))
+        array = d2l.tensor([corpus[i:i+num_steps+1]
+                            for i in range(len(corpus)-num_steps)])
+        self.X, self.Y = array[:,:-1], array[:,1:]
+
 data = d2l.TimeMachine(batch_size=1024, num_steps=32)
 rnn_block = StackedRNNScratch(num_inputs=len(data.vocab),
                               num_hiddens=32, num_layers=2)
 model = d2l.RNNLMScratch(rnn_block, vocab_size=len(data.vocab), lr=2)
-trainer = d2l.Trainer(max_epochs=100, gradient_clip_val=1, num_gpus=1)
+trainer = d2l.Trainer(max_epochs=200, gradient_clip_val=1, num_gpus=1)
 #trainer.fit(model, data)
 #plt.show()
 
