@@ -33,7 +33,7 @@ def masked_softmax(X, valid_lens):  #@save
         # On the last axis, replace masked elements with a very large negative
         # value, whose exponentiation outputs 0
         X = _sequence_mask(X.reshape(-1, shape[-1]), valid_lens, value=-1e6)
-        #X.reshape(-1, shape[-1]) shape[-1]是保持最后一维，其他维展开成一维,再喝展开的valid_len做掩码运算
+        #X.reshape(-1, shape[-1]) shape[-1]是保持最后一维，其他维展开成一维
         return nn.functional.softmax(X.reshape(shape), dim=-1)#reshape(shape)就是还原张量维度
     #dim=-1表示以行为单位做softmax,比如[[1,2,3], [4,5,6]],softmax(dim=-1)后为:
     #[[0.0900, 0.2447, 0.6652],
@@ -57,8 +57,11 @@ class DotProductAttention(nn.Module):  #@save
     # Shape of valid_lens: (batch_size,) or (batch_size, no. of queries)
     def forward(self, queries, keys, values, valid_lens=None):
         d = queries.shape[-1]
+        #假设queies(n,a,d),keys(m,b,d),value(m,b,v),则W应(a,b)
         # Swap the last two dimensions of keys with keys.transpose(1, 2)
-        scores = torch.bmm(queries, keys.transpose(1, 2)) / math.sqrt(d)#bmm只对数据后两维做乘法, scores=(2,1,2)*(2,2,10)=(2,1,10)
+        W=torch.rand(queries.shape[2],keys.shape[2])
+        mid=torch.matmul(queries,W)/math.sqrt(d)
+        scores = torch.matmul(mid,keys.transpose(1,2))#bmm只对数据后两维做乘法,scores=(2,1,2)*(2,2,10)=(2,1,10)
         self.attention_weights = masked_softmax(scores, valid_lens)
         print("weights:",self.attention_weights)
         test=self.dropout(self.attention_weights)
@@ -67,7 +70,7 @@ class DotProductAttention(nn.Module):  #@save
 
 
 queries = torch.normal(0, 1, (2, 1, 2))
-keys = torch.normal(0, 1, (2, 10, 2))
+keys = torch.normal(0, 1, (2, 10, 3))
 values = torch.normal(0, 1, (2, 10, 4))
 valid_lens = torch.tensor([2, 6])
 

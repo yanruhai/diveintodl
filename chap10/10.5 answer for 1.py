@@ -49,7 +49,7 @@ raw_text = data._download()
 print(raw_text[:75])
 text = data._preprocess(raw_text)
 print(text[:80])
-src, tgt = data._tokenize(text)#src,tgt都是长度为167130的list,每个元素又是一个为内容是字符串的列表
+src, tgt = data._tokenize(text,max_examples=100)#src,tgt都是长度为167130的list,每个元素又是一个为内容是字符串的列表
 print(src[:6], tgt[:6])
 #@save
 def show_list_len_pair_hist(legend, xlabel, ylabel, xlist, ylist):
@@ -81,7 +81,7 @@ def _build_arrays(self, raw_text, src_vocab=None, tgt_vocab=None):
     # 内部辅助函数：构建单个语言的张量和词汇表
     def _build_array(sentences, vocab, is_tgt=False):#sentences是二维列表
         pad_or_trim = lambda seq, t: (#t是标准长度，如果数组不足t就补齐，这里传入的t是num_steps,num_steps在构造方法中默认是9
-            seq[:t] if len(seq) > t else seq + ['<pad>'] * (t - len(seq)))#三元运算,如果不足长度t就补t-len(seq)个<pad>,超过就截掉
+            seq[:t] if len(seq) > t else seq + ['<pad>'] * (t - len(seq)))#三元运算,如果不足长度t就补t-len(seq)个<pad>
         sentences = [pad_or_trim(s, self.num_steps) for s in sentences]#sentences执行后结果是641*9的二维数组
         if is_tgt:
             sentences = [['<bos>'] + s for s in sentences]
@@ -91,7 +91,7 @@ def _build_arrays(self, raw_text, src_vocab=None, tgt_vocab=None):
         valid_len = (array != vocab['<pad>']).type(torch.int32).sum(1)#!=符号右侧做了广播,,sum(1)得到y轴上的和,array维度为641*10
         return array, vocab, valid_len#array是单词在vocab下的下标里列表，valid_len为每个sentence的去掉<pad>的有效长度
 
-    src, tgt = self._tokenize(self._preprocess(raw_text), self.num_train + self.num_val)
+    src, tgt = self._tokenize(self._preprocess(raw_text), self.num_train + self.num_val+1000)
     src_array, src_vocab, src_valid_len = _build_array(src, src_vocab)#src_array.shape=(641,9) src_valid_len=(641,)
     tgt_array, tgt_vocab, _ = _build_array(tgt, tgt_vocab, True)
     return ((src_array, tgt_array[:,:-1], src_valid_len, tgt_array[:,1:]),
