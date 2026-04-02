@@ -5,32 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
-      <change afterPath="$PROJECT_DIR$/chap10/10.5 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap10/10.7 answer for 5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap10/10.8 answer for 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.2 answer for 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.3 answer for 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.3 answer for1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.4 answer for 1 my test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.4 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.4 answer for 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.4 the bahdanau attentionmechanism.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.5 multi-head attention.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.6 self-attentionand positionalencoding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.7 the transformer architecture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/Bahdanau_attention_simlest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/test for dimension expanding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/test5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/test6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/test7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap11/11.5 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap11/11.7 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap11/11.8 transformer for vision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap11/test10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap11/test11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap11/test8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap11/test9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.10adam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.1Optimizationanddeeplearning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.2 convexity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.3 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.3answer for 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.3answer for 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.3gradientdescent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.4 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.4stochastic_gradient_descent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.5 answer for 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.5MinibatchStochasticgradientdescent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.5answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.6Momentum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.7adagrad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.8rmsprop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.9adadelta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/test3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap10/10.5 machine translation adn the dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap10/10.7 sequence-to-sequence learing.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap10/10.7 sequence-to-sequence learing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap11/11.1 Queries,Keys,and Values.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.1 Queries,Keys,and Values.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap11/11.2 Attention Pooling by Similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.2 Attention Pooling by Similarity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chap11/11.3 attentionscoringfunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.3 attentionscoringfunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap11/11.4 the bahdanau attentionmechanism.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.4 the bahdanau attentionmechanism.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap11/11.5 multi-head attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.5 multi-head attention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap11/11.6 self-attentionand positionalencoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.6 self-attentionand positionalencoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap11/11.7 the transformer architecture.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.7 the transformer architecture.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -103,9 +110,28 @@
     "Python.11.4 answer for 1.executor": "Debug",
     "Python.11.4 answer for 2.executor": "Run",
     "Python.11.4 the bahdanau attentionmechanism.executor": "Debug",
+    "Python.11.5 answer for 1.executor": "Debug",
     "Python.11.5 multi-head attention.executor": "Debug",
     "Python.11.6 self-attentionand positionalencoding.executor": "Debug",
+    "Python.11.7 answer for 2.executor": "Run",
     "Python.11.7 the transformer architecture.executor": "Run",
+    "Python.11.8 transformer for vision.executor": "Run",
+    "Python.12.1 convexity.executor": "Run",
+    "Python.12.10adam.executor": "Run",
+    "Python.12.1Optimizationanddeeplearning.executor": "Run",
+    "Python.12.3 answer for 2.executor": "Run",
+    "Python.12.3answer for 3.executor": "Run",
+    "Python.12.3answer for 4.executor": "Run",
+    "Python.12.3gradientdescent.executor": "Run",
+    "Python.12.4 answer for 1.executor": "Run",
+    "Python.12.4stochastic_gradient_descent.executor": "Run",
+    "Python.12.5 answer for 3.executor": "Run",
+    "Python.12.5MinibatchStochasticgradientdescent.executor": "Run",
+    "Python.12.5answer for 2.executor": "Run",
+    "Python.12.6Momentum.executor": "Run",
+    "Python.12.7adagrad.executor": "Run",
+    "Python.12.8rmsprop.executor": "Run",
+    "Python.12.9adadelta.executor": "Run",
     "Python.2-Implementation of Multilayer Perceptrons.executor": "Run",
     "Python.2-The Image Classification Dataset.executor": "Run",
     "Python.2-convolutions for images.executor": "Debug",
@@ -216,8 +242,8 @@
     "Python.test for dimension expanding.executor": "Debug",
     "Python.test.executor": "Run",
     "Python.test1.executor": "Run",
-    "Python.test10.executor": "Debug",
-    "Python.test11.executor": "Debug",
+    "Python.test10.executor": "Run",
+    "Python.test11.executor": "Run",
     "Python.test2.executor": "Run",
     "Python.test3.executor": "Run",
     "Python.test4.executor": "Run",
@@ -225,7 +251,7 @@
     "Python.test6.executor": "Run",
     "Python.test7.executor": "Run",
     "Python.test8.executor": "Run",
-    "Python.test9.executor": "Debug",
+    "Python.test9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -239,8 +265,8 @@
       <recent name="C:\pythonproj\diveintodl\chap6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11.4 the bahdanau attentionmechanism">
-    <configuration name="10.1 longshort-term memory(LSTZM）" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.12.10adam">
+    <configuration name="12.10adam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,11 +275,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap10/10.1 longshort-term memory(LSTZM）.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap12/12.10adam.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,7 +288,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11.4 answer for 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12.5 answer for 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,11 +297,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap11/11.4 answer for 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap12/12.5 answer for 3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,7 +310,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11.4 the bahdanau attentionmechanism" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12.7adagrad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,11 +319,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap11/11.4 the bahdanau attentionmechanism.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap12/12.7adagrad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,7 +332,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11.5 multi-head attention" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12.8rmsprop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -315,11 +341,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap11/11.5 multi-head attention.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap12/12.8rmsprop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,7 +354,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Bahdanau_attention_simlest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12.9adadelta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -337,11 +363,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap11/Bahdanau_attention_simlest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap12/12.9adadelta.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -352,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.11.4 the bahdanau attentionmechanism" />
-        <item itemvalue="Python.Bahdanau_attention_simlest" />
-        <item itemvalue="Python.11.5 multi-head attention" />
-        <item itemvalue="Python.11.4 answer for 1" />
-        <item itemvalue="Python.10.1 longshort-term memory(LSTZM）" />
+        <item itemvalue="Python.12.10adam" />
+        <item itemvalue="Python.12.9adadelta" />
+        <item itemvalue="Python.12.8rmsprop" />
+        <item itemvalue="Python.12.5 answer for 3" />
+        <item itemvalue="Python.12.7adagrad" />
       </list>
     </recent_temporary>
   </component>
@@ -584,11 +610,6 @@
           <option name="timeStamp" value="295" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chap11/11.6 self-attentionand positionalencoding.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="311" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/chap10/10.7 answer for 5.py</url>
           <line>47</line>
           <option name="timeStamp" value="313" />
@@ -609,11 +630,6 @@
           <option name="timeStamp" value="323" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chap10/10.7 sequence-to-sequence learing.py</url>
-          <line>136</line>
-          <option name="timeStamp" value="324" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/chap11/11.4 answer for 1 my test.py</url>
           <line>85</line>
           <option name="timeStamp" value="357" />
@@ -622,6 +638,11 @@
           <url>file://$PROJECT_DIR$/chap11/11.4 answer for 1.py</url>
           <line>177</line>
           <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap11/test11.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="389" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

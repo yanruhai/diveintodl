@@ -1,5 +1,6 @@
 import math
 import torch
+from matplotlib import pyplot as plt
 from torch import nn
 from d2l import torch as d2l
 
@@ -13,6 +14,7 @@ class MultiHeadAttention(d2l.Module):  #@save
         self.W_k = nn.LazyLinear(num_hiddens, bias=bias)
         self.W_v = nn.LazyLinear(num_hiddens, bias=bias)
         self.W_o = nn.LazyLinear(num_hiddens, bias=bias)
+        self.attention_weights=[]
         #三个W矩阵的维度相等
 
     def forward(self, queries, keys, values, valid_lens):
@@ -33,6 +35,7 @@ class MultiHeadAttention(d2l.Module):  #@save
                 valid_lens, repeats=self.num_heads, dim=0)
         # Shape of output: (batch_size * num_heads, no. of queries,num_hiddens / num_heads)
         output = self.attention(queries, keys, values, valid_lens)#点积注意力,Attention(Q,K,V)=softmax(QK^T/sqrt(dk))V
+        self.attention_weights.append(self.attention.attention_weights)
         # Shape of output_concat: (batch_size, no. of queries, num_hiddens)
         output_concat = self.transpose_output(output)
         return self.W_o(output_concat)
@@ -65,5 +68,16 @@ X = torch.ones((batch_size, num_queries, num_hiddens))
 Y = torch.ones((batch_size, num_kvpairs, num_hiddens))
 d2l.check_shape(attention(X, Y, Y, valid_lens),
                 (batch_size, num_queries, num_hiddens))
+
+
+attention_weights = attention.attention_weights[0]
+attention_weights = attention_weights.reshape((1, 1, -1, num_kvpairs))
+
+# Plus one to include the end-of-sequence token
+#attention_weights的各个维度含义：batch,heads,queries,keys
+d2l.show_heatmaps(
+    attention_weights[:, :, :, :].cpu(),
+    xlabel='Key positions', ylabel='Query positions')
+plt.show()
 
 

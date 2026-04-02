@@ -108,7 +108,7 @@ class Seq2SeqAttentionDecoder(AttentionDecoder):
             out, hidden_state = self.rnn(x.permute(1, 0, 2), hidden_state)#rnn的前向获得当前时间步的token特征,并更新hidden_state,此时多层状态传入
             outputs.append(out)
             self._attention_weights.append(self.attention.attention_weights)#self.attention.attention_weights=(128,1,9),将新的注意力加入
-            #128是batch_size,9是num_steps
+            #128是batch_size,9是num_steps，这个注意力用于可视化
         # After fully connected layer transformation, shape of outputs:
         # (num_steps, batch_size, vocab_size)
         outputs = self.dense(torch.cat(outputs, dim=0))#从9,128,256转成9,128,214
@@ -200,14 +200,18 @@ for en, fr, p in zip(engs, fras, preds):
 
 _, dec_attention_weights = model.predict_step(
     data.build([engs[-1]], [fras[-1]]), d2l.try_gpu(), data.num_steps, True)
+#dec_attention_weights是长度为9的列表，每个元素是长度为1的列表，列表内是1，1，9的张量，因此下面代码中step[0][0][0]取出的维度是(9,)
+#注意力权重的标准维度通常是：(Batch Size,Num Heads,Query Length, Key Length)
 attention_weights = torch.cat(
     [step[0][0][0] for step in dec_attention_weights], 0)
 attention_weights = attention_weights.reshape((1, 1, -1, data.num_steps))
+#转成1,1,9,9维度
 
 # Plus one to include the end-of-sequence token
 d2l.show_heatmaps(
     attention_weights[:, :, :, :len(engs[-1].split()) + 1].cpu(),
     xlabel='Key positions', ylabel='Query positions')
+#只显示最后一个元素的热力图
 
 
 

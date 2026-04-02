@@ -20,9 +20,12 @@ class PositionalEncoding(nn.Module):  #@save
         self.dropout = nn.Dropout(dropout)
         # Create a long enough P
         self.P = torch.zeros((1, max_len, num_hiddens))
-        X = torch.arange(max_len, dtype=torch.float32).reshape(
-            -1, 1) / torch.pow(10000, torch.arange(
-            0, num_hiddens, 2, dtype=torch.float32) / num_hiddens)
+        tt3=torch.arange(max_len, dtype=torch.float32).reshape(-1, 1)
+        #长度max_len,现在是1000的列,reshape形成一列目的是为了和后面的一行相除产生广播
+        X = (
+                torch.arange(max_len, dtype=torch.float32).reshape(-1, 1) /
+                torch.pow(10000, torch.arange(0, num_hiddens, 2, dtype=torch.float32) / num_hiddens)
+             )
         #torch.arange(0, num_hiddens, 2, dtype=torch.float32)表示0到num_hiddens，间隔2，其实就是(11.6.2)公式中2j
         self.P[:, :, 0::2] = torch.sin(X)
         self.P[:, :, 1::2] = torch.cos(X)
@@ -32,7 +35,7 @@ class PositionalEncoding(nn.Module):  #@save
         return self.dropout(X)
 
 encoding_dim, num_steps = 32, 60
-pos_encoding = PositionalEncoding(encoding_dim, 0)
+pos_encoding = PositionalEncoding(encoding_dim, 0,100)
 X = pos_encoding(torch.zeros((1, num_steps, encoding_dim)))
 P = pos_encoding.P[:, :X.shape[1], :]
 d2l.plot(torch.arange(num_steps), P[0, :, 6:10].T, xlabel='Row (position)',

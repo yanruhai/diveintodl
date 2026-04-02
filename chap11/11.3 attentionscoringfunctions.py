@@ -29,11 +29,11 @@ def masked_softmax(X, valid_lens):  #@save
         >>> torch.repeat_interleave(y, 2),这里2是重复次数,会先展开，然后重复
         tensor([1, 1, 2, 2, 3, 3, 4, 4])'''
         else:
-            valid_lens = valid_lens.reshape(-1)
+            valid_lens = valid_lens.reshape(-1)#-1是展平的意思
         # On the last axis, replace masked elements with a very large negative
         # value, whose exponentiation outputs 0
         X = _sequence_mask(X.reshape(-1, shape[-1]), valid_lens, value=-1e6)
-        #X.reshape(-1, shape[-1]) shape[-1]是保持最后一维，其他维展开成一维,再喝展开的valid_len做掩码运算
+        #X.reshape(-1, shape[-1]) shape[-1]是保持最后一维，其他维展开成一维,再和展开的valid_len做掩码运算
         return nn.functional.softmax(X.reshape(shape), dim=-1)#reshape(shape)就是还原张量维度
     #dim=-1表示以行为单位做softmax,比如[[1,2,3], [4,5,6]],softmax(dim=-1)后为:
     #[[0.0900, 0.2447, 0.6652],
