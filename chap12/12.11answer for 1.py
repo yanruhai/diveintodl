@@ -68,67 +68,8 @@ def train(net, train_iter, test_iter, num_epochs, loss, trainer, device,
     print(f'train loss {train_loss:.3f}, train acc {train_acc:.3f}, '
           f'test acc {test_acc:.3f}')
 
-lr, num_epochs = 0.3, 30
+lr, num_epochs = 0.5, 30
 net = net_fn()
 trainer = torch.optim.SGD(net.parameters(), lr=lr)
-#train(net, train_iter, test_iter, num_epochs, loss, trainer, device)
-
-lr = 0.1
-trainer.param_groups[0]["lr"] = lr
-print(f'learning rate is now {trainer.param_groups[0]["lr"]:.2f}')
-
-class SquareRootScheduler:
-    def __init__(self, lr=0.1):
-        self.lr = lr
-
-    def __call__(self, num_update):
-        return self.lr * pow(num_update + 1.0, -0.5)
-
-
-scheduler = SquareRootScheduler(lr=0.1)
-d2l.plot(torch.arange(num_epochs), [scheduler(t) for t in range(num_epochs)])
-#train(net, train_iter, test_iter, num_epochs, loss, trainer, device,scheduler)
-net = net_fn()
-trainer = torch.optim.SGD(net.parameters(), lr=0.5)
-scheduler = lr_scheduler.MultiStepLR(trainer, milestones=[15, 30], gamma=0.5)
-
-def get_lr(trainer, scheduler):
-    lr = scheduler.get_last_lr()[0]
-    trainer.step()
-    scheduler.step()
-    return lr
-
-d2l.plot(torch.arange(num_epochs), [get_lr(trainer, scheduler)
-                                  for t in range(num_epochs)])
-#train(net, train_iter, test_iter, num_epochs, loss, trainer, device,scheduler)
-class CosineScheduler:
-    def __init__(self, max_update, base_lr=0.01, final_lr=0,
-               warmup_steps=0, warmup_begin_lr=0):
-        self.base_lr_orig = base_lr
-        self.max_update = max_update
-        self.final_lr = final_lr
-        self.warmup_steps = warmup_steps
-        self.warmup_begin_lr = warmup_begin_lr
-        self.max_steps = self.max_update - self.warmup_steps
-
-    def get_warmup_lr(self, epoch):
-        increase = (self.base_lr_orig - self.warmup_begin_lr) \
-                       * float(epoch) / float(self.warmup_steps)
-        return self.warmup_begin_lr + increase
-
-    def __call__(self, epoch):
-        if epoch < self.warmup_steps:
-            return self.get_warmup_lr(epoch)
-        if epoch <= self.max_update:
-            self.base_lr = self.final_lr + (
-                self.base_lr_orig - self.final_lr) * (1 + math.cos(
-                math.pi * (epoch - self.warmup_steps) / self.max_steps)) / 2
-        return self.base_lr
-
-scheduler = CosineScheduler(warmup_steps=5,max_update=20, base_lr=0.3, final_lr=0.01)
-
-net = net_fn()
-trainer = torch.optim.SGD(net.parameters(), lr=0.3)
-train(net, train_iter, test_iter, num_epochs, loss, trainer, device,
-      scheduler)
+train(net, train_iter, test_iter, num_epochs, loss, trainer, device)
 plt.show()

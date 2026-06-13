@@ -17,7 +17,7 @@ def f_2d(x1, x2):
     return 0.1 * x1 ** 2 + 2 * x2 ** 2
 
 eta = 2
-#d2l.show_trace_2d(f_2d, d2l.train_2d(adagrad_2d))
+d2l.show_trace_2d(f_2d, d2l.train_2d(adagrad_2d))
 
 def init_adagrad_states(feature_dim):
     s_w = torch.zeros((feature_dim, 1))
@@ -35,4 +35,7 @@ def adagrad(params, states, hyperparams):
 data_iter, feature_dim = d2l.get_data_ch11(batch_size=10)
 d2l.train_ch11(adagrad, init_adagrad_states(feature_dim),
                {'lr': 0.1}, data_iter, feature_dim);
+
+trainer = torch.optim.Adagrad
+d2l.train_concise_ch11(trainer, {'lr': 0.1}, data_iter)
 plt.show()

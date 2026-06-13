@@ -5,38 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6330e1b6-9cea-49eb-b83c-5847e20de29a" name="Changes" comment="gg">
-      <change afterPath="$PROJECT_DIR$/chap11/11.5 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.7 answer for 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/11.8 transformer for vision.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/test10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/test11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/test8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11/test9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.10adam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.1Optimizationanddeeplearning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.2 convexity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.3 answer for 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.3answer for 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.3answer for 4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.3gradientdescent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.4 answer for 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.4stochastic_gradient_descent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.5 answer for 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.5MinibatchStochasticgradientdescent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.5answer for 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.6Momentum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.7adagrad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.8rmsprop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/12.9adadelta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.10 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.11answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.6 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.6 answer for 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.7 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.7answer for 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.8 answer for 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.8answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.8answer for 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.9 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/12.9answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap12/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13/13.1 answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13/13.1compilerand interpreters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13/13.2answer for 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13/13.2asynchronouscomputation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap13/13.3automaticparallelism.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/15.10pretraining bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/15.3 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/15.3thedatasetfor pretrainingwordembedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/15.4 answer 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/15.4 answer for 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/15.4pretrain word2vec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/15.6subwordembedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/15.7 wordsimilarityandanalogy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/15.8bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/15.9thedatasetfor pretainingbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/wikitext-2/wiki.test.tokens" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap11/11.3 attentionscoringfunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.3 attentionscoringfunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap11/11.4 the bahdanau attentionmechanism.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.4 the bahdanau attentionmechanism.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap11/11.5 multi-head attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.5 multi-head attention.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap11/11.6 self-attentionand positionalencoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.6 self-attentionand positionalencoding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap11/11.7 the transformer architecture.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap11/11.7 the transformer architecture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap12/12.10adam.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap12/12.10adam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap12/12.11learningratescheduling.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap12/12.11learningratescheduling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap12/12.6Momentum.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap12/12.6Momentum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap12/12.7adagrad.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap12/12.7adagrad.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +101,7 @@
     "Python.10.5 answer for 1.executor": "Debug",
     "Python.10.5 machine translation adn the dataset.executor": "Debug",
     "Python.10.7 answer for 5.executor": "Debug",
-    "Python.10.7 sequence-to-sequence learing.executor": "Debug",
+    "Python.10.7 sequence-to-sequence learing.executor": "Run",
     "Python.10.8 answer for 2.executor": "Debug",
     "Python.11.1 Queries,Keys,and Values.executor": "Debug",
     "Python.11.2 Attention Pooling by Similarity.executor": "Debug",
@@ -114,10 +117,13 @@
     "Python.11.5 multi-head attention.executor": "Debug",
     "Python.11.6 self-attentionand positionalencoding.executor": "Debug",
     "Python.11.7 answer for 2.executor": "Run",
-    "Python.11.7 the transformer architecture.executor": "Run",
+    "Python.11.7 the transformer architecture.executor": "Debug",
     "Python.11.8 transformer for vision.executor": "Run",
     "Python.12.1 convexity.executor": "Run",
+    "Python.12.10 answer for 1.executor": "Run",
     "Python.12.10adam.executor": "Run",
+    "Python.12.11answer for 1.executor": "Run",
+    "Python.12.11learningratescheduling.executor": "Run",
     "Python.12.1Optimizationanddeeplearning.executor": "Run",
     "Python.12.3 answer for 2.executor": "Run",
     "Python.12.3answer for 3.executor": "Run",
@@ -128,10 +134,34 @@
     "Python.12.5 answer for 3.executor": "Run",
     "Python.12.5MinibatchStochasticgradientdescent.executor": "Run",
     "Python.12.5answer for 2.executor": "Run",
+    "Python.12.6 answer for 2.executor": "Run",
+    "Python.12.6 answer for 4.executor": "Run",
     "Python.12.6Momentum.executor": "Run",
+    "Python.12.7 answer for 2.executor": "Run",
     "Python.12.7adagrad.executor": "Run",
+    "Python.12.7answer for 5.executor": "Run",
+    "Python.12.8 answer for 4.executor": "Run",
+    "Python.12.8answer for 2.executor": "Run",
+    "Python.12.8answer for 3.executor": "Run",
     "Python.12.8rmsprop.executor": "Run",
+    "Python.12.9 answer for 1.executor": "Run",
     "Python.12.9adadelta.executor": "Run",
+    "Python.12.9answer for 2.executor": "Run",
+    "Python.13.1 answer for 1.executor": "Run",
+    "Python.13.1compilerand interpreters.executor": "Run",
+    "Python.13.2answer for 1.executor": "Run",
+    "Python.13.2asynchronouscomputation.executor": "Run",
+    "Python.13.3automaticparallelism.executor": "Run",
+    "Python.15.10pretraining bert.executor": "Run",
+    "Python.15.3 answer for 2.executor": "Run",
+    "Python.15.3thedatasetfor pretrainingwordembedding.executor": "Debug",
+    "Python.15.4 answer 1.executor": "Run",
+    "Python.15.4 answer for 2.executor": "Debug",
+    "Python.15.4pretrain word2vec.executor": "Run",
+    "Python.15.6subwordembedding.executor": "Run",
+    "Python.15.7 wordsimilarityandanalogy.executor": "Run",
+    "Python.15.8bert.executor": "Debug",
+    "Python.15.9thedatasetfor pretainingbert.executor": "Run",
     "Python.2-Implementation of Multilayer Perceptrons.executor": "Run",
     "Python.2-The Image Classification Dataset.executor": "Run",
     "Python.2-convolutions for images.executor": "Debug",
@@ -256,17 +286,18 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/pythonproj/diveintodl/chap6",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/pythonproj/diveintodl/data/wikitext-2",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\pythonproj\diveintodl\data\wikitext-2" />
       <recent name="C:\pythonproj\diveintodl\chap6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.12.10adam">
-    <configuration name="12.10adam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.15.10pretraining bert">
+    <configuration name="11.7 the transformer architecture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,11 +306,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap12/12.10adam.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap11/11.7 the transformer architecture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +319,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="12.5 answer for 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15.10pretraining bert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -297,11 +328,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap12/12.5 answer for 3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap15/15.10pretraining bert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,7 +341,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="12.7adagrad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15.7 wordsimilarityandanalogy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,11 +350,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap12/12.7adagrad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap15/15.7 wordsimilarityandanalogy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,7 +363,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="12.8rmsprop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15.8bert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -341,11 +372,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap12/12.8rmsprop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap15/15.8bert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,7 +385,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="12.9adadelta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15.9thedatasetfor pretainingbert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diveintodl" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -363,11 +394,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap12/12.9adadelta.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap15/15.9thedatasetfor pretainingbert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,11 +409,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.12.10adam" />
-        <item itemvalue="Python.12.9adadelta" />
-        <item itemvalue="Python.12.8rmsprop" />
-        <item itemvalue="Python.12.5 answer for 3" />
-        <item itemvalue="Python.12.7adagrad" />
+        <item itemvalue="Python.15.10pretraining bert" />
+        <item itemvalue="Python.15.9thedatasetfor pretainingbert" />
+        <item itemvalue="Python.15.8bert" />
+        <item itemvalue="Python.11.7 the transformer architecture" />
+        <item itemvalue="Python.15.7 wordsimilarityandanalogy" />
       </list>
     </recent_temporary>
   </component>
@@ -514,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764063040114</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="gg">
+      <option name="closed" value="true" />
+      <created>1775164028786</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1775164028786</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -643,6 +682,21 @@
           <url>file://$PROJECT_DIR$/chap11/test11.py</url>
           <line>3</line>
           <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.venv1/Lib/site-packages/d2l/torch.py</url>
+          <line>2140</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap11/11.7 the transformer architecture.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.venv1/Lib/site-packages/d2l/torch.py</url>
+          <line>2293</line>
+          <option name="timeStamp" value="424" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

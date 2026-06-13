@@ -14,7 +14,6 @@ def adam(params, states, hyperparams):
         with torch.no_grad():
             v[:] = beta1 * v + (1 - beta1) * p.grad
             s[:] = beta2 * s + (1 - beta2) * torch.square(p.grad)
-            print("p.grad:",p.grad)
             v_bias_corr = v / (1 - beta1 ** hyperparams['t'])
             s_bias_corr = s / (1 - beta2 ** hyperparams['t'])
             p[:] -= hyperparams['lr'] * v_bias_corr / (torch.sqrt(s_bias_corr)
@@ -25,23 +24,9 @@ def adam(params, states, hyperparams):
 
 data_iter, feature_dim = d2l.get_data_ch11(batch_size=10)
 d2l.train_ch11(adam, init_adam_states(feature_dim),
-               {'lr': 0.01, 't': 1}, data_iter, feature_dim);
+             {'lr': 0.000001, 't': 1}, data_iter, feature_dim,num_epochs=350)
 
-def yogi(params, states, hyperparams):
-    beta1, beta2, eps = 0.9, 0.999, 1e-3
-    for p, (v, s) in zip(params, states):
-        with torch.no_grad():
-            v[:] = beta1 * v + (1 - beta1) * p.grad
-            s[:] = s + (1 - beta2) * torch.sign(
-                torch.square(p.grad) - s) * torch.square(p.grad)
-            v_bias_corr = v / (1 - beta1 ** hyperparams['t'])
-            s_bias_corr = s / (1 - beta2 ** hyperparams['t'])
-            p[:] -= hyperparams['lr'] * v_bias_corr / (torch.sqrt(s_bias_corr)
-                                                       + eps)
-        p.grad.data.zero_()
-    hyperparams['t'] += 1
-
-data_iter, feature_dim = d2l.get_data_ch11(batch_size=10)
-d2l.train_ch11(yogi, init_adam_states(feature_dim),
-               {'lr': 0.01, 't': 1}, data_iter, feature_dim);
+'''small_data_iter,feature_dim = d2l.get_data_ch11(batch_size=10, n=10)
+d2l.train_ch11(adam, init_adam_states(feature_dim),
+               {'lr': 0.001, 't': 1}, small_data_iter, feature_dim, num_epochs=50)'''
 plt.show()
